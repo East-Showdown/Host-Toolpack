@@ -100,22 +100,13 @@ scripted_gui = {
 					set_global_flag = tpt_window_a
 				}
 			}
-			dst_A_open_click = {
+			dst_open_click = {
 				if = {
-					limit = { NOT = { has_global_flag = dst_A_enabled } }
-					set_global_flag = dst_A_enabled
+					limit = { NOT = { has_global_flag = dst_enabled } }
+					set_global_flag = dst_enabled
 				}
 				else = {
-					clr_global_flag = dst_A_enabled
-				}
-			}
-			dst_B_open_click = {
-				if = {
-					limit = { NOT = { has_global_flag = dst_B_enabled } }
-					set_global_flag = dst_B_enabled
-				}
-				else = {
-					clr_global_flag = dst_B_enabled
+					clr_global_flag = dst_enabled
 				}
 			}
 			sst_open_click = {
@@ -214,16 +205,10 @@ scripted_gui = {
 			tpt_title_visible = {
 				NOT = { has_global_flag = tp_page_2 }
 			}
-			dst_A_open_visible = {
+			dst_open_visible = {
 				NOT = { has_global_flag = tp_page_2 }
 			}
-			dst_A_title_visible = {
-				NOT = { has_global_flag = tp_page_2 }
-			}
-			dst_B_open_visible = {
-				NOT = { has_global_flag = tp_page_2 }
-			}
-			dst_B_title_visible = {
+			dst_title_visible = {
 				NOT = { has_global_flag = tp_page_2 }
 			}
 			sst_open_visible = {
@@ -351,7 +336,6 @@ scripted_gui = {
 				clr_global_flag = tp_open_confirmation_window
 				tcw_clear_all_global_confirms = yes
 				every_country = { clr_country_flag = sst_ship_deletion_target }
-				every_country = { clr_country_flag = dsta_unit_deletion_target }
 				every_country = { clr_country_flag = dstb_unit_deletion_target }
 			}
 			tcw_confirm_button_click = {
@@ -360,19 +344,11 @@ scripted_gui = {
 					every_country = { dismantle_faction = yes }
 				}
 				if = {
-					limit = { has_global_flag = dst_a_confirm_unit_deletion }
-					random_country = { 
-						limit = { has_country_flag = dsta_unit_deletion_target }
-						clr_country_flag = dsta_unit_deletion_target
-						dst_a_delete_units = yes
-					}
-				}
-				if = {
-					limit = { has_global_flag = dst_b_confirm_unit_deletion }
+					limit = { has_global_flag = dst_confirm_unit_deletion }
 					random_country = { 
 						limit = { has_country_flag = dstb_unit_deletion_target }
 						clr_country_flag = dstb_unit_deletion_target
-						dst_b_delete_units = yes
+						dst_delete_units = yes
 					}
 				}
 				if = {

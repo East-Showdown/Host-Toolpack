@@ -6,8 +6,6 @@ toolpack.2.d: "Trying to find out how this tool works? Here's a quick run throug
 
  DST_OPEN: "§HActivate 'Ideology Changing Tool'§!"
  DST_CLOSE: "§HDeactivate 'Ideology Changing Tool'§!"
- DST_ACTIVITY_ON_A: "DST A: £trigger_no"
- DST_ACTIVITY_OFF_A: "DST A: £trigger_yes"
  DST_ACTIVITY_ON_B: "DST B: £trigger_no"
  DST_ACTIVITY_OFF_B: "DST B: £trigger_yes"
  DST_HELP: "Help"

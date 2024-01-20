@@ -10,8 +10,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_global_flag = dst_a_confirm_unit_deletion
-				has_global_flag = dst_b_confirm_unit_deletion
+				has_global_flag = dst_confirm_unit_deletion
 			}
 		}
 		localization_key = TCW_UNIT_DELETION_TITLE
@@ -37,7 +36,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_global_flag = dst_a_confirm_unit_deletion
-				has_global_flag = dst_b_confirm_unit_deletion
+				has_global_flag = dst_confirm_unit_deletion
 			}
 		}
 		localization_key = TCW_UNIT_DELETION_DESCRIPTION

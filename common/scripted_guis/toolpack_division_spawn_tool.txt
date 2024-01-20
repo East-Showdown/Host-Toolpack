@@ -10,7 +10,7 @@ scripted_gui = {
 			ROOT = {
 				is_ai = no
 				has_country_flag = host
-				has_global_flag = dst_B_enabled
+				has_global_flag = dst_enabled
 			}
 		}
 
@@ -177,7 +177,7 @@ scripted_gui = {
 			dst_delete_button_2_click = {
 				tcw_clear_all_global_confirms = yes
 				set_global_flag = tp_open_confirmation_window
-				set_global_flag = dst_b_confirm_unit_deletion 
+				set_global_flag = dst_confirm_unit_deletion 
 				random_country = {
 					limit = { owns_state = PREV }
 					set_country_flag = dstb_unit_deletion_target
