@@ -8,6 +8,7 @@ scripted_gui = {
 		
 		visible = {
 			ROOT = {
+				has_country_flag = host
 				is_ai = no
 				has_global_flag = cat_enabled
 			}
