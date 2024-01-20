@@ -1,0 +1,25 @@
+﻿l_english:
+ 
+ TP_PAGE_NUMBER_1: "§Y1§!"
+ TP_PAGE_NUMBER_2: "§Y2§!"
+ TP_OTHER_PAGE_NUMBER_0: ""
+ TP_OTHER_PAGE_NUMBER_1: "§g1§!"
+ TP_OTHER_PAGE_NUMBER_2: "§g2§!"
+
+ #SST
+ toolpack.4.d: "Here's how the "Ship Spawning Tool" works:\n\nStep 1: Select the different ships you want to spawn.\n\nStep 2: Click on a state owned by the country that should receive the ships.\n\nStep 3: Press one of the four buttons to spawn the desired amount of ships."
+ 
+ #MST
+ toolpack.5.t: "The Manpower/Population Tool"
+ toolpack.5.d: "The MPT comes in two slightly different tools. The first is the MMT, which is used to manipulate the manpower of countries. Select the "Country" option to either add or remove manpower to or from a country directly or first manipulate one of the two variables to then add its value to selected countries as manpower.\nWith the PMT, you can manage the population of selected states - again, either directly or by changing the variables first.\n\nProblems you will encounter: The four variables that can be edited with the tool cannot go beyond 2147k or -2147k. That is because their value actually becomes its negative when going further from 0 than 2.147m. This is also the reason why some countries' or states' values look completely butchered. Blame Paradox."
+ 
+ #TCW (Confirmation Window)
+ TCW_CANCEL: "Cancel"
+ TCW_OK: "OK"
+ TCW_FACTION_DISMANTLING_TITLE: "Dismantle All Factions"
+ TCW_FACTION_DISMANTLING_DESCRIPTION: "Are you sure you want to §Rdismantle all factions§!?"
+ TCW_UNIT_DELETION_TITLE: "Delete All Units"
+ TCW_UNIT_DELETION_DESCRIPTION: "Are you sure you want to §Rdelete all units of the selected type§!?"
+ TCW_SHIP_DELETION_TITLE: "Delete All Ships"
+ TCW_SHIP_DELETION_DESCRIPTION: "Are you sure you want to §Rdelete all ships of the selected type§!?"
+ 

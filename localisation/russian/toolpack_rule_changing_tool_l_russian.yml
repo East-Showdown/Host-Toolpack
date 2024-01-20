@@ -1,0 +1,11 @@
+﻿l_russian:
+ 
+ RCT_OFF: "Rule Changing Tool: £trigger_no"
+ RCT_ON: "Rule Changing Tool: £trigger_yes"
+ 
+ CPT_CAN_NOT_DECLARE_WAR_TT: "Can §Hnot§! declare war"
+ CPT_CAN_ONLY_JUSTIFY_THREAT_TT: "Can §Honly§! justify wargoal on aggressive countries"
+ CPT_CAN_DECLARE_ON_SAME_IDEOLOGY_TT: "Can declare war on countries with the same ideology"
+ CPT_CAN_DECLARE_WITHOUT_WARGOAL_TT: "Can declare war without wargoal when in war"
+ CPT_CAN_DECLINE_CALL_TT: "Can decline call to arms"
+ CPT_CAN_LOWER_TENSION_TT: "Can lower World Tension by declaring war"

@@ -1,0 +1,34 @@
+﻿l_english:
+  
+ smt_on: "State Managing Tool: £trigger_no"
+ smt_off: "State Managing Tool: £trigger_yes"
+  
+ smt_marked: "Unmark State"
+ smt_unmarked: "Mark State"
+ 
+ SMT_STATE_MARK: "§HMark State§!\nMark the selected state to manage it\n"
+ SMT_STATE_UNMARK: "§HUnmark State§!\nUnmarks the selected state\n"
+ 
+ SMT_MARK_ALL: "§HMark All States§!\n\nMark all states of this country"
+ SMT_MARK_CORES: "§HMark Cores§!\n\nMark all core states of this country"
+ SMT_MARK_COLONIES: "§HMark Colonies§!\n\nMark all colonial states of this country"
+ SMT_UNMARK_ALL: "§HClear All Marks§!\n\nEvery mark on world will be removed"
+ SMT_MARK_OCCUPIED: "§HMark Occupied\n\n§!Mark all states occupied by this country"
+ 
+ SMT_OWNERSHIP: "§HTransfer Ownership§!\n\nTransfer ownership of all marked states to this country"
+ SMT_CONTROL: "§HTransfer Control§!\n\nTransfer occupation of all marked states to this country\n§RMust be at war or control will reset to the owner§!"
+ SMT_RESOURCE: "§HGive Resource Rights§!\n\nGive this country resource rights to marked states"
+ SMT_CAPITAL: "§HSet Capital§!\n\nMake this state the capital of this country\n\n§RThe capital will be moved to the point in the region with the most victory points§!"
+ 
+ SMT_CORE: "§HAdd Cores§!\n\nMake marked states cores of this country"
+ SMT_UNCORE: "§HRemove Cores§!\n\nRemove marked cores for this country"
+ SMT_CLAIM: "§HAdd Claims§!\n\nAdd claims on marked states by this country"
+ SMT_UNCLAIM: "§HRemove Claims§!\n\nRemove marked claims for this country"
+ SMT_DEMILIT: "§HDemilitarize Marked States§!"
+ SMT_REMILIT: "§HRemilitarize Marked States§!"
+ 
+ Resistance: "Resistance"
+ Compliance: "Compliance"
+
+ SMT_NAME: "§G[This.GetName]§! in §Y[From.Owner.GetNameDef]§!"
+ 
