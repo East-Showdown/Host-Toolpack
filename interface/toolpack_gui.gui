@@ -201,44 +201,44 @@ guiTypes = {
 		}
 
 
-### DST ###
-
-		buttonType = {
-			name = "dst_open"
-			quadTextureSprite = "GFX_generic_text_bg_203"
-			position = { x = 25 y = 190 }
-			pdx_tooltip = "[DST_OPENING]"
-			clicksound = click_ok
-			oversound = ui_menu_over
-		}
-		instantTextboxType = {
-			name = "dst_title"
-			position = { x = 0 y = 194 }
-			font = "hoi_18mbs"
-			text = "[DST_ACTIVITY_B]"
-			maxWidth = 250
-			maxHeight = 23
-			format = center
-			alwaystransparent = yes
-		}
-
 
 ### BST ###
 
 		buttonType = {
 			name = "bst_open"
 			quadTextureSprite = "GFX_generic_text_bg_203"
-			position = { x = 25 y = 230 }
+			position = { x = 25 y = 190 }
 			pdx_tooltip = "[BST_OPENING]"
 			clicksound = click_ok
 			oversound = ui_menu_over
 		}
 		
 		instantTextboxType = {
-			position = { x = 0 y = 234 }
+			position = { x = 0 y = 194 }
 			name = "bst_title"
 			font = "hoi_18mbs"
 			text = "[bst_tooltip]"
+			maxWidth = 250
+			maxHeight = 23
+			format = center
+			alwaystransparent = yes
+		}
+
+### DST ###
+
+		buttonType = {
+			name = "dst_open"
+			quadTextureSprite = "GFX_generic_text_bg_203"
+			position = { x = 25 y = 230 }
+			pdx_tooltip = "[DST_OPENING]"
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "dst_title"
+			position = { x = 0 y = 234 }
+			font = "hoi_18mbs"
+			text = "[DST_ACTIVITY_B]"
 			maxWidth = 250
 			maxHeight = 23
 			format = center
@@ -250,7 +250,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "mst_open"
-			quadTextureSprite = "GFX_generic_text_bg_203"
+			quadTextureSprite = "GFX_generic_text_bg_203"	
 			position = { x = 25 y = 30 }
 			clicksound = click_ok
 			oversound = ui_menu_over

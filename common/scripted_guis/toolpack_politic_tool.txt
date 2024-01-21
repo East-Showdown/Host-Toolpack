@@ -43,13 +43,6 @@ scripted_gui = {
 				set_global_flag = tpt_window_d
 				clr_global_flag = tpt_window_e
 			}
-			tpt_tab_button_frame_1e_click = {
-				clr_global_flag = tpt_window_b
-				clr_global_flag = tpt_window_a
-				clr_global_flag = tpt_window_c
-				clr_global_flag = tpt_window_d
-				set_global_flag = tpt_window_e
-			}
 			tpt_tab_switch_button_click = {
 				if = {
 					limit = { has_global_flag = tpt_window_e }
@@ -2658,9 +2651,7 @@ scripted_gui = {
 			tpt_tab_button_frame_2d_visible = {
 				has_global_flag = tpt_window_d
 			}
-			tpt_tab_button_frame_1e_visible = {
-				NOT = { has_global_flag = tpt_window_e }
-			}
+
 			tpt_tab_button_frame_2e_visible = {
 				has_global_flag = tpt_window_e
 			}

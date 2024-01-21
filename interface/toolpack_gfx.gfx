@@ -327,14 +327,6 @@ spriteTypes = {
 		texturefile = "gfx/toolpack_interface/tpt_interface/tpt_tab_frame_2.dds"
 	}
 	SpriteType = { 
-		name = "GFX_tpt_tab_frame_1_short"
-		texturefile = "gfx/toolpack_interface/tpt_interface/tpt_tab_frame_1_short.dds"
-	}
-	SpriteType = { 
-		name = "GFX_tpt_tab_frame_2_short"
-		texturefile = "gfx/toolpack_interface/tpt_interface/tpt_tab_frame_2_short.dds"
-	}
-	SpriteType = { 
 		name = "GFX_tpt_research_tab_icon"
 		texturefile = "gfx/toolpack_interface/tpt_interface/tpt_research_tab_icon.dds"
 	}
