@@ -2,7 +2,7 @@ guiTypes = {
 
 
 	containerWindowType = {
-		name = "mst_S_main_container"
+		name = "mst_main_container"
 		position = {x = -250 y = -226 }
 		size = { width = 494 height = 295 }
 		orientation = CENTER_RIGHT
@@ -60,7 +60,7 @@ guiTypes = {
 			name = "mst_mark_status"
 			position = { x = -9 y = 55 }
 			font = "hoi_16mbs"
-			text = "[This.mark_status_mst_S]"
+			text = "[This.mark_status_mst]"
 			maxWidth = 190
 			maxHeight = 23
 			format = center

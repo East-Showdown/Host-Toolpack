@@ -16,15 +16,6 @@ guiTypes = {
 			clicksound = click_ok
 			oversound = ui_menu_over
 		}
-		buttonType = {
-			name = "toolpack_close_at_right"
-			quadTextureSprite = "GFX_toolpack_expand_right"
-			position = { x = 0 y = 0 }
-			shortcut = "ctrl+t"
-			pdx_tooltip = "[toolpack_CLOSING]"
-			clicksound = click_ok
-			oversound = ui_menu_over
-		}
 	}
 	
 	containerWindowType = {
@@ -61,15 +52,6 @@ guiTypes = {
 			name = "toolpack_close"
 			quadTextureSprite = "GFX_toolpack_expand_right"
 			position = { x = 0 y = 0 }
-			shortcut = "ctrl+t"
-			pdx_tooltip = "[toolpack_OPENING]"
-			clicksound = click_ok
-			oversound = ui_menu_over
-		}
-		buttonType = {
-			name = "toolpack_close_at_right"
-			quadTextureSprite = "GFX_toolpack_expand_right"
-			position = { x = 229 y = 329 }
 			shortcut = "ctrl+t"
 			pdx_tooltip = "[toolpack_OPENING]"
 			clicksound = click_ok
@@ -155,7 +137,6 @@ guiTypes = {
 			name = "cat_open"
 			quadTextureSprite = "GFX_generic_text_bg_203"
 			position = { x = 25 y = 70 }
-			shortcut = "ctrl+alt+a"
 			pdx_tooltip = "[CAT_OPENING]"
 			clicksound = click_ok
 			oversound = ui_menu_over
@@ -163,7 +144,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cat_title"
-			position = {x = 0 y = 74 }
+			position = { x = 0 y = 74 }
 			font = "hoi_18mbs"
 			text = "[CAT_ACTIVITY]"
 			maxWidth = 250
@@ -187,7 +168,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cpt_title"
-			position = {x = 0 y = 114 }
+			position = { x = 0 y = 114 }
 			font = "hoi_18mbs"
 			text = "[CPT_ACTIVITY]"
 			maxWidth = 250
@@ -203,7 +184,6 @@ guiTypes = {
 			name = "tpt_open"
 			quadTextureSprite = "GFX_generic_text_bg_203"
 			position = { x = 25 y = 150 }
-			shortcut = "ctrl+alt+a"
 			pdx_tooltip = "[TPT_OPENING]"
 			clicksound = click_ok
 			oversound = ui_menu_over
@@ -211,7 +191,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "tpt_title"
-			position = {x = 0 y = 154 }
+			position = { x = 0 y = 154 }
 			font = "hoi_18mbs"
 			text = "[TPT_ACTIVITY]"
 			maxWidth = 250
@@ -225,42 +205,17 @@ guiTypes = {
 
 		buttonType = {
 			name = "dst_open"
-			quadTextureSprite = "GFX_toolpack_bg_half"
-			position = { x = 129 y = 192 }
-			shortcut = "ctrl+alt+a"
+			quadTextureSprite = "GFX_generic_text_bg_203"
+			position = { x = 25 y = 190 }
 			pdx_tooltip = "[DST_OPENING]"
 			clicksound = click_ok
 			oversound = ui_menu_over
 		}
 		instantTextboxType = {
 			name = "dst_title"
-			position = {x = 90 y = 194 }
+			position = { x = 0 y = 194 }
 			font = "hoi_18mbs"
 			text = "[DST_ACTIVITY_B]"
-			maxWidth = 181
-			maxHeight = 23
-			format = center
-			alwaystransparent = yes
-		}
-
-
-### SST ###
-
-		buttonType = {
-			name = "sst_open"
-			quadTextureSprite = "GFX_generic_text_bg_203"
-			position = { x = 25 y = 230 }
-			shortcut = "ctrl+alt+a"
-			pdx_tooltip = "[SST_OPENING]"
-			clicksound = click_ok
-			oversound = ui_menu_over
-		}
-		
-		instantTextboxType = {
-			name = "sst_title"
-			position = {x = 0 y = 234 }
-			font = "hoi_18mbs"
-			text = "[SST_ACTIVITY]"
 			maxWidth = 250
 			maxHeight = 23
 			format = center
@@ -273,15 +228,14 @@ guiTypes = {
 		buttonType = {
 			name = "bst_open"
 			quadTextureSprite = "GFX_generic_text_bg_203"
-			position = { x = 25 y = 270 }
-			shortcut = "ctrl+alt+a"
+			position = { x = 25 y = 230 }
 			pdx_tooltip = "[BST_OPENING]"
 			clicksound = click_ok
 			oversound = ui_menu_over
 		}
 		
 		instantTextboxType = {
-			position = {x = 0 y = 274 }
+			position = { x = 0 y = 234 }
 			name = "bst_title"
 			font = "hoi_18mbs"
 			text = "[bst_tooltip]"
@@ -295,35 +249,18 @@ guiTypes = {
 ### MST ###
 
 		buttonType = {
-			name = "mst_C_open"
-			quadTextureSprite = "GFX_toolpack_bg_half"
-			position = { x = 25 y = 32 }
+			name = "mst_open"
+			quadTextureSprite = "GFX_generic_text_bg_203"
+			position = { x = 25 y = 30 }
 			clicksound = click_ok
 			oversound = ui_menu_over
 		}
 		instantTextboxType = {
-			name = "mst_C_title"
-			position = {x = 25 y = 34 }
-			font = "hoi_18mbs"
-			text = "[MST_ACTIVITY_C]"
-			maxWidth = 101
-			maxHeight = 23
-			format = center
-			alwaystransparent = yes
-		}
-		buttonType = {
-			name = "mst_S_open"
-			quadTextureSprite = "GFX_toolpack_bg_half"
-			position = { x = 129 y = 32 }
-			clicksound = click_ok
-			oversound = ui_menu_over
-		}
-		instantTextboxType = {
-			name = "mst_S_title"
-			position = {x = 90 y = 34 }
+			name = "mst_title"
+			position = { x = 0 y = 34 }
 			font = "hoi_18mbs"
 			text = "[MST_ACTIVITY_S]"
-			maxWidth = 181
+			maxWidth = 250
 			maxHeight = 23
 			format = center
 			alwaystransparent = yes
@@ -336,13 +273,12 @@ guiTypes = {
 			name = "rmt_open"
 			quadTextureSprite = "GFX_generic_text_bg_203"
 			position = { x = 25 y = 70 }
-			shortcut = "ctrl+alt+a"
 			clicksound = click_ok
 			oversound = ui_menu_over
 		}
 		
 		instantTextboxType = {
-			position = {x = 0 y = 74 }
+			position = { x = 0 y = 74 }
 			name = "rmt_title"
 			font = "hoi_18mbs"
 			text = "[RMT_ACTIVITY]"
@@ -364,7 +300,7 @@ guiTypes = {
 	}
 
 	instantTextboxType = {
-		position = {x = 0 y = 114 }
+		position = { x = 0 y = 114 }
 		name = "crt_title"
 		font = "hoi_18mbs"
 		text = "[CRT_ACTIVITY]"
@@ -399,7 +335,7 @@ guiTypes = {
 			position = { x = 10 y = 16 }
 			textureFile = ""
 			font = "hoi_24header"
-			borderSize = {x = 0 y = 10}
+			borderSize = { x = 0 y = 10}
 			text = "[TCW_TITLE]"	
 			maxWidth = 450
 			maxHeight = 40
@@ -413,7 +349,7 @@ guiTypes = {
 			position = { x = 23 y = 90 }
 			textureFile = ""
 			font = "hoi_18mbs"
-			borderSize = {x = 0 y = 0} 
+			borderSize = { x = 0 y = 0} 
 			text = "[TCW_DESCRIPTION]"	
 			maxWidth = 430
 			maxHeight = 225

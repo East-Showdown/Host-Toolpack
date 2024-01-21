@@ -17,11 +17,7 @@
  TPT_CW_EN_DEMOCRATIC: "Rebelling faction will be §2democratic§!."
  TPT_CW_EN_NEUTRAL: "Rebelling faction will be §gneutral§!."
  
- 
- TPT_LEADER_NAME: "Head of State: §G[FROM.GetLeader]§!"
  TPT_MAKE_FACTION_LEADER_TT: "§HMake this country the leader of its faction§!"
- TPT_MARK_IDEOLOGY_TT: "§HMark all countries with the same ideology§!"
-
 
  tp_fascist_nation: "Fascist Nation"
  tp_fascism_banned: "Fascism Banned"
@@ -72,8 +68,6 @@
  TPT_SUB_WS_1: "[!tpt_sub_war_support_1_click]"
  TPT_SUB_WS_5: "[!tpt_sub_war_support_5_click]"
  TPT_SUB_WS_20: "[!tpt_sub_war_support_20_click]"
- TPT_ENABLE_ELECTIONS: "§HEnable Elections§!"
- TPT_DISABLE_ELECTIONS: "§HDisable Elections§!"
  TPT_RETIRE_LEADER_TT: "§HRetire Country Leader§!\n\nCurrently not functioning properly."
  TPT_KILL_LEADER_TT: "§HKill Country Leader§!"
  
@@ -144,7 +138,6 @@
  TPT_DISMANTLE_FACTION: "§HDismantle Faction§!\n\n"
  TPT_ADD_TO_FACTION: "§HAdd to Faction§!\n\n"
  TPT_LEAVE_FACTION: "§HLeave Faction§!\n\n"
- TPT_DISMANTLE_ALL_FACTIONS: "§HDismantle All Factions§!\n\n"
  TPT_SET_MAJOR: "§HSet Major§!\n\n"
  TPT_SET_UNMAJOR: "§HSet as not Major§!\n\n"
  TPT_GUARANTEE: "§HGuarantee§!\n\n"
@@ -196,7 +189,6 @@
  TPT_DISMANTLE_FACTION_TT: "[!tpt_dismantle_faction_click]"
  TPT_ADD_TO_FACTION_TT: "[!tpt_add_to_faction_click]"
  TPT_LEAVE_FACTION_TT: "[!tpt_leave_faction_click]"
- TPT_DISMANTLE_ALL_FACTIONS_TT: "[!tpt_dismantle_all_factions_click]"
  TPT_SET_MAJOR_TT: "[!tpt_set_major_button_click]"
  TPT_SET_UNMAJOR_TT: "[!tpt_unmajor_button_click]"
  TPT_ADD_OPINION_TT: "[!tpt_add_opinion_button_click]"

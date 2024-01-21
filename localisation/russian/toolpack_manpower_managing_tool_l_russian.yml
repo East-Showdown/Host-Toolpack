@@ -1,7 +1,5 @@
 ﻿l_russian:
  
- MST_ACTIVITY_ON_C: "MMT: £trigger_no"
- MST_ACTIVITY_OFF_C: "MMT: £trigger_yes"
  MST_ACTIVITY_ON_S: "PMT: £trigger_no"
  MST_ACTIVITY_OFF_S: "PMT: £trigger_yes"
  MST_VARIABLE_FOCUS_TT: "§YEdit value of a variable§!"

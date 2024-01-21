@@ -1,16 +1,16 @@
 scripted_gui = {
 
-	mst_S_main_container = {
+	mst_main_container = {
 	
 		context_type = selected_state_context
 		
-		window_name = "mst_S_main_container"
+		window_name = "mst_main_container"
 		
 		visible = {
 			ROOT = {
 				is_ai = no
 				has_country_flag = host
-				has_global_flag = mst_S_enabled
+				has_global_flag = mst_enabled
 			}
 		}
 

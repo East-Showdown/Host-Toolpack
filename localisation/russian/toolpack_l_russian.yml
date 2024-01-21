@@ -5,7 +5,20 @@
  TP_OTHER_PAGE_NUMBER_0: ""
  TP_OTHER_PAGE_NUMBER_1: "§g1§!"
  TP_OTHER_PAGE_NUMBER_2: "§g2§!"
- 
+
+ #Game rules
+ HOST_RULES: "Правила хоста"
+ SELECT_HOST: "Выбор хоста"
+ GERMANY_SH: "Германия"
+ ITALY_SH: "Италия"
+ BRITAIN_SH: "Британия"
+ USA_SH: "США"
+ JAPAN_SH: "Япония"
+ USSR_SH: "СССР"
+ FRANCE_SH: "Франция"
+ ALL_SH: "Все"
+ ALL_DESC_SH: "Тулпак будет доступен всем"
+
  #SST
  toolpack.4.d: "Here's how the "Ship Spawning Tool" works:\n\nStep 1: Select the different ships you want to spawn.\n\nStep 2: Click on a state owned by the country that should receive the ships.\n\nStep 3: Press one of the four buttons to spawn the desired amount of ships."
  

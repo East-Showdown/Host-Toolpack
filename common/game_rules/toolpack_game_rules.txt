@@ -1,171 +1,46 @@
 horst_host_country = {
-	name = "Select Host|Выбрать хост"
-	group = "Host Rules|Хост правила"
+	name = "SELECT_HOST"
+	group = "HOST_RULES"
 	icon = "GFX_volunteers"
 	default = {
 		name = GER
-		text = "Germany|Германия"
+		text = "GERMANY_SH"
 		desc = ""
 	}
 
 	option = {
 		name = ITA
-		text = "Italy|Италия"
-		desc = ""
-	}
-	option = {
-		name = ROM
-		text = "Romania|Румыния"
-		desc = ""
-	}
-	option = {
-		name = HUN
-		text = "Hungary|Венгрия"
-		desc = ""
-	}
-	option = {
-		name = BUL
-		text = "Bulgaria|Болгария"
-		desc = ""
-	}
-	option = {
-		name = FIN
-		text = "Finland|Финляндия"
+		text = "ITALY_SH"
 		desc = ""
 	}
 	option = {
 		name = ENG
-		text = "Great Britain|Великобритания"
+		text = "BRITAIN_SH"
 		desc = ""
 	}
 	option = {
 		name = USA
-		text = "USA|США"
-		desc = ""
-	}
-	option = {
-		name = CAN
-		text = "Canada|Канада"
-		desc = ""
-	}
-	option = {
-		name = SAF
-		text = "South Africa|Южная Африка"
-		desc = ""
-	}
-	option = {
-		name = RAJ
-		text = "Raj|Индия"
-		desc = ""
-	}
-	option = {
-		name = AST
-		text = "Australia|Австралия"
+		text = "USA_SH"
 		desc = ""
 	}
 	option = {
 		name = JAP
-		text = "Japan|Япония"
+		text = "JAPAN_SH"
 		desc = ""
 	}
 	option = {
 		name = SOV
-		text = "Soviet Union|Советский союз"
+		text = "USSR_SH"
 		desc = ""
 	}
 	option = {
 		name = FRA
-		text = "France|Франция"
+		text = "FRANCE_SH"
 		desc = ""
 	}
 	option = {
-		name = SPR
-		text = "Spain|Испания"
-		desc = ""
-	}
-	option = {
-		name = BRA
-		text = "Brazil|Бразилия"
-		desc = ""
-	}
-	option = {
-		name = SWE
-		text = "Sweden|Швеция"
-		desc = ""
-	}
-	option = {
-		name = AUS
-		text = "Austria|Австралия"
-		desc = ""
-	}
-	option = {
-		name = SWI
-		text = "Switzerland|Швейцария"
-		desc = ""
-	}
-	option = {
-		name = LAT
-		text = "Latvia|Латвия"
-		desc = ""
-	}
-	option = {
-		name = LIT
-		text = "Lithuania|Литва"
-		desc = ""
-	}
-	option = {
-		name = EST
-		text = "Estonia|Эстония"
-		desc = ""
-	}
-	option = {
-		name = DEN
-		text = "Denmark|Дания"
-		desc = ""
-	}
-	option = {
-		name = YUG
-		text = "Yugoslavia|Югославия"
-		desc = ""
-	}
-	option = {
-		name = BLR
-		text = "Belarus|Беларусь"
-		desc = ""
-	}
-	option = {
-		name = CZE
-		text = "Czechoslovakia|Чехословакия"
-		desc = ""
-	}
-	option = {
-		name = POL
-		text = "Poland|Польша"
-		desc = ""
-	}
-	option = {
-		name = CHI
-		text = "China|Китай"
-		desc = ""
-	}
-	option = {
-		name = PRC
-		text = "Communist China|Коммунистический Китай"
-		desc = ""
-	}
-	option = {
-		name = ALB
-		text = "Albania|Албания"
-		desc = ""
-	}
-	option = {
-		name = GRE
-		text = "Greece|Греция"
-		desc = ""
-	}
-	option = {
-		name = TUR
-		text = "Turkey|Турция"
-		desc = ""
+		name = ALL
+		text = "ALL_SH"
+		desc = "ALL_DESC_SH"
 	}
 }

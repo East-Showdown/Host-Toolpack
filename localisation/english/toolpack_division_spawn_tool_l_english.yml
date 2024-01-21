@@ -39,9 +39,7 @@
  ####
  
  DST_ADD_ARMY_EXPERIENCE: "§HAdd §t50§! Army Experience.§!"
- DST_REMOVE_ARMY_EXPERIENCE: "§HSet Army Experience to §t0§!.§!"
- DST_ADD_AIR_EXPERIENCE: "§HAdd §t0§! Air Experience.§!"
- DST_REMOVE_AIR_EXPERIENCE: "§HSet Air Experience to §t0§!.§!"
+ DST_REMOVE_ARMY_EXPERIENCE: "§HSet Army Experience to §t0§!.§!"  
  DST_INC_EXP: "§HIncrease Division Experience.§W"
  DST_DEC_EXP: "§HDecrease Division Experience.§W"
  DST_EXP_TEXT: "Experience"

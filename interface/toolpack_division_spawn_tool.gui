@@ -89,20 +89,6 @@ guiTypes = {
 			scale = 1
 		}
 		buttonType = {
-			name = "dst_add_air_experience"
-			position = { x = 400 y = 62 }
-			spriteType = "GFX_dst_air_star"
-			pdx_tooltip = "DST_ADD_AIR_EXPERIENCE"
-			scale = 1
-		}
-		buttonType = {
-			name = "dst_remove_air_experience"
-			position = { x = 400 y = 132 }
-			spriteType = "GFX_dst_air_star_crossed_out"
-			pdx_tooltip = "DST_REMOVE_AIR_EXPERIENCE"
-			scale = 1
-		}
-		buttonType = {
 			name = "dst_increase_exp"
 			position = { x = 101 y = 127 }
 			shortcut = "shift+s"			

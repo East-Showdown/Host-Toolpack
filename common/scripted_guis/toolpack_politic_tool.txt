@@ -94,36 +94,7 @@ scripted_gui = {
 					clr_country_flag = tpt_actor
 				}
 			}
-			tpt_mark_ideology_click = {
-				if = {
-					limit = { has_government = fascism }
-					every_country = {
-						limit = { has_government = fascism }
-						set_country_flag = tpt_actor
-					}
-				}
-				if = {
-					limit = { has_government = communism }
-					every_country = {
-						limit = { has_government = communism }
-						set_country_flag = tpt_actor
-					}
-				}
-				if = {
-					limit = { has_government = democratic }
-					every_country = {
-						limit = { has_government = democratic }
-						set_country_flag = tpt_actor
-					}
-				}
-				if = {
-					limit = { has_government = neutrality }
-					every_country = {
-						limit = { has_government = neutrality }
-						set_country_flag = tpt_actor
-					}
-				}
-			}
+
 ### RESEARCH ###
 
 			tpt_remove_rs_slot_click = {
@@ -660,62 +631,6 @@ scripted_gui = {
 			}
 			tpt_neutral_off_click = {
 				clr_global_flag = tpt_neutral
-			}
-			tpt_enable_elections_click = {
-				if = {
-					limit = {
-						all_country = {
-							NOT = { has_country_flag = tpt_actor }
-						}
-					}
-					set_politics = {
-						ruling_party = THIS
-						elections_allowed = yes
-					}
-				}
-				if = {
-					limit = {
-						any_country = { has_country_flag = tpt_actor }
-					}
-					every_country = {
-						limit = {
-							has_country_flag = tpt_actor
-						}
-						set_politics = {
-							ruling_party = THIS
-							elections_allowed = yes
-						}
-						clr_country_flag = tpt_actor
-					}
-				}
-			}
-			tpt_disable_elections_click = {
-				if = {
-					limit = {
-						all_country = {
-							NOT = { has_country_flag = tpt_actor }
-						}
-					}
-					set_politics = {
-						ruling_party = THIS
-						elections_allowed = no
-					}
-				}
-				if = {
-					limit = {
-						any_country = { has_country_flag = tpt_actor }
-					}
-					every_country = {
-						limit = {
-							has_country_flag = tpt_actor
-						}
-						set_politics = {
-							ruling_party = THIS
-							elections_allowed = no
-						}
-						clr_country_flag = tpt_actor
-					}
-				}
 			}
 			tpt_change_click = {
 				if = {
@@ -2628,17 +2543,6 @@ scripted_gui = {
 					}
 				}
 			}
-			tpt_dismantle_all_factions_click = {
-				tcw_clear_all_global_confirms = yes
-				set_global_flag = tp_open_confirmation_window
-				set_global_flag = tpt_confirm_faction_dismantling
-				custom_effect_tooltip = TPT_DISMANTLE_ALL_FACTIONS
-				effect_tooltip = {
-					every_country = {
-						dismantle_faction = yes
-					}
-				}
-			}
 			tpt_add_to_faction_click = {
 				custom_effect_tooltip = TPT_ADD_TO_FACTION
 				every_country = {
@@ -3058,44 +2962,6 @@ scripted_gui = {
 			}
 			tpt_change_visible = {
 				has_global_flag = tpt_window_a
-			}
-			tpt_enable_elections_visible = {
-				has_global_flag = tpt_window_a
-			}
-			tpt_enable_elections_click_enabled = {
-				OR = {
-					AND = {
-						any_country = {
-							has_country_flag = tpt_actor
-							NOT = { has_elections = yes }
-						}
-					}
-					AND = {
-						all_country = {
-							NOT = { has_country_flag = tpt_actor }
-						}
-						NOT = { has_elections = yes }
-					}
-				}
-			}
-			tpt_disable_elections_visible = {
-				has_global_flag = tpt_window_a
-			}
-			tpt_disable_elections_click_enabled = {
-				OR = {
-					AND = {
-						any_country = {
-							has_country_flag = tpt_actor
-							has_elections = yes
-						}
-					}
-					AND = {
-						all_country = {
-							NOT = { has_country_flag = tpt_actor }
-						}
-						has_elections = yes
-					}
-				}
 			}
 ### DIPLMOACY ###
 			tpt_guarantee_visible = {
@@ -3519,12 +3385,6 @@ scripted_gui = {
 						is_in_faction = yes
 					}
 				}
-			}
-			tpt_dismantle_all_factions_visible = {
-				has_global_flag = tpt_window_c
-			}
-			tpt_dismantle_all_factions_click_enabled = {
-				any_country = { is_in_faction = yes }
 			}
 			tpt_make_faction_leader_visible = {
 				has_global_flag = tpt_window_c

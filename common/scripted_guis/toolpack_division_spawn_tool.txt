@@ -266,16 +266,6 @@ scripted_gui = {
 					army_experience = -50000
 				}
 			}
-			dst_add_air_experience_click = {
-				ROOT = {
-					air_experience = 50
-				}
-			}
-			dst_remove_air_experience_click = {
-				ROOT = {
-					air_experience = -50000
-				}
-			}
 			dst_increase_exp_click = {
 				if = {
 					limit = {

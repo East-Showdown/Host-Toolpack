@@ -178,10 +178,6 @@ spriteTypes = {
 ### CAT ###
 ###########
 	SpriteType = { 
-		name = "GFX_cat_button"
-		texturefile = "gfx/toolpack_interface/cat_interface/cat_button.dds"
-	}
-	SpriteType = { 
 		name = "GFX_cat_button_off"
 		texturefile = "gfx/toolpack_interface/cat_interface/cat_button_off.dds"
 	}
@@ -272,32 +268,12 @@ spriteTypes = {
 		texturefile = "gfx/toolpack_interface/dst_interface/dst_bg.dds"
 	}
 	SpriteType = { 
-		name = "GFX_dst_bg_new"
-		texturefile = "gfx/toolpack_interface/dst_interface/dst_bg_new.dds"
-	}	
-	SpriteType = { 
-		name = "GFX_dst_bg_big"
-		texturefile = "gfx/toolpack_interface/dst_interface/dst_bg_big.dds"
-	}
-	SpriteType = { 
-		name = "GFX_dst_infantry"
-		texturefile = "gfx/toolpack_interface/dst_interface/dst_infantry.dds"
-	}
-	SpriteType = { 
 		name = "GFX_dst_star"
 		texturefile = "gfx/toolpack_interface/dst_interface/dst_star.dds"
 	}
 	SpriteType = { 
 		name = "GFX_dst_star_crossed_out"
 		texturefile = "gfx/toolpack_interface/dst_interface/dst_star_crossed_out.dds"
-	}
-	SpriteType = { 
-		name = "GFX_dst_air_star"
-		texturefile = "gfx/toolpack_interface/dst_interface/dst_air_star.dds"
-	}
-	SpriteType = { 
-		name = "GFX_dst_air_star_crossed_out"
-		texturefile = "gfx/toolpack_interface/dst_interface/dst_air_star_crossed_out.dds"
 	}
 ###########
 ### TPT ###
@@ -341,14 +317,6 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_tpt_fascism_idea"
 		texturefile = "gfx/toolpack_interface/tpt_interface/tpt_fascism_idea.dds"
-	}
-	SpriteType = { 
-		name = "GFX_tpt_mark_ideology_button"
-		texturefile = "gfx/toolpack_interface/tpt_interface/tpt_mark_ideology_button.dds"
-	}
-	SpriteType = { 
-		name = "GFX_tpt_mark_ideology_button_0.9"
-		texturefile = "gfx/toolpack_interface/tpt_interface/tpt_mark_ideology_button_0.9.dds"
 	}
 	SpriteType = { 
 		name = "GFX_tpt_tab_frame_1"
@@ -509,25 +477,6 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_tpt_major_blue"
 		texturefile = "gfx/toolpack_interface/tpt_interface/tpt_icons/tpt_major_blue.dds"
-	}
-###########
-### SST ###
-###########
-	SpriteType = { 
-		name = "GFX_sst_convoy_bg"
-		texturefile = "gfx/toolpack_interface/sst_interface/sst_convoy_bg.dds"
-	}
-	SpriteType = { 
-		name = "GFX_sst_convoy_glow"
-		texturefile = "gfx/toolpack_interface/sst_interface/sst_convoy_glow.dds"
-	}
-	SpriteType = { 
-		name = "GFX_sst_star"
-		texturefile = "gfx/toolpack_interface/sst_interface/sst_star.dds"
-	}
-	SpriteType = { 
-		name = "GFX_sst_star_crossed_out"
-		texturefile = "gfx/toolpack_interface/sst_interface/sst_star_crossed_out.dds"
 	}
 ###########
 ### BST ###
@@ -761,10 +710,6 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_ict_neutral_pop"
 		texturefile = "gfx/toolpack_interface/other/ict_neutral_pop.dds"
-	}
-	SpriteType = { 
-		name = "GFX_dst_fourstar"
-		texturefile = "gfx/toolpack_interface/dst_interface/other/dst_fourstar.dds"
 	}
 	SpriteType = { 
 		name = "GFX_dst_template_button"

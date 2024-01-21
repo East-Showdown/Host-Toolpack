@@ -35,18 +35,6 @@ country_event = {
 	}
 }
 
-# Help SST
-country_event = {
-	id = toolpack.4
-	title = toolpack.1.t
-	desc = toolpack.4.d
-	is_triggered_only = yes
-
-	option = {
-		name = toolpack.1.a
-	}
-}
-
 # Help MST
 country_event = {
 	id = toolpack.5

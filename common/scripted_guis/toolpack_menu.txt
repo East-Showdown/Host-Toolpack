@@ -109,15 +109,6 @@ scripted_gui = {
 					clr_global_flag = dst_enabled
 				}
 			}
-			sst_open_click = {
-				if = {
-					limit = { NOT = { has_global_flag = sst_enabled } }
-					set_global_flag = sst_enabled
-				}
-				else = {
-					clr_global_flag = sst_enabled
-				}
-			}
 			bst_open_click = {
 				if = {
 					limit = { NOT = { has_global_flag = bst_enabled } }
@@ -128,22 +119,13 @@ scripted_gui = {
 				}
 				bst_count_buildings = yes
 			}
-			mst_C_open_click = {
+			mst_open_click = {
 				if = {
-					limit = { NOT = { has_global_flag = mst_C_enabled } }
-					set_global_flag = mst_C_enabled
+					limit = { NOT = { has_global_flag = mst_enabled } }
+					set_global_flag = mst_enabled
 				}
 				else = {
-					clr_global_flag = mst_C_enabled
-				}
-			}
-			mst_S_open_click = {
-				if = {
-					limit = { NOT = { has_global_flag = mst_S_enabled } }
-					set_global_flag = mst_S_enabled
-				}
-				else = {
-					clr_global_flag = mst_S_enabled
+					clr_global_flag = mst_enabled
 				}
 			}
 			rmt_open_click = {
@@ -223,16 +205,10 @@ scripted_gui = {
 			bst_title_visible = {
 				NOT = { has_global_flag = tp_page_2 }
 			}
-			mst_C_open_visible = {
+			mst_open_visible = {
 				has_global_flag = tp_page_2
 			}
-			mst_C_title_visible = {
-				has_global_flag = tp_page_2
-			}
-			mst_S_open_visible = {
-				has_global_flag = tp_page_2
-			}
-			mst_S_title_visible = {
+			mst_title_visible = {
 				has_global_flag = tp_page_2
 			}
 			rmt_open_visible = {
