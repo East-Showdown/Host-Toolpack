@@ -1549,459 +1549,230 @@ scripted_gui = {
 			}
 			tpt_create_faction_click = {
 				custom_effect_tooltip = TPT_CREATE_FACTION
+				#ALLIANCE NAMES
+				#Fascism
 				if = {
 					limit = {
-						all_country = {
-							NOT = { has_country_flag = tpt_actor }
-						}
+						has_government = fascism
+						NOT = { has_global_flag = AXIS_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
 					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_treaty_geneva }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							OR = {
-								owns_state = 3
-								tag = SWI
-								AND = {
-									NOT = { country_exists = SWI }
-									all_state = {
-										if = {
-											limit = { is_core_of = SWI }
-											is_owned_by = FROM
-										}
-									}
-								}
-							}
-						}
-						create_faction = "Treaty of Geneva"
-						set_global_flag = tpt_taken_treaty_geneva
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_nato }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							OR = {
-								owns_state = 16
-								tag = FRA
-								AND = {
-									NOT = { country_exists = FRA }
-									all_state = {
-										if = {
-											limit = { is_core_of = FRA }
-											is_owned_by = FROM
-										}
-									}
-								}
-							}
-						}
-						create_faction = "Treaty of Paris"
-						set_global_flag = tpt_taken_treaty_paris
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_treaty_london }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							OR = {
-								owns_state = 126
-								tag = ENG
-								AND = {
-									NOT = { country_exists = ENG }
-									all_state = {
-										if = {
-											limit = { is_core_of = ENG }
-											is_owned_by = FROM
-										}
-									}
-								}
-							}
-						}
-						create_faction = "Treaty of London"
-						set_global_flag = tpt_taken_treaty_london
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_treaty_berlin }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							OR = {
-								owns_state = 64
-								tag = GER
-								AND = {
-									NOT = { country_exists = GER }
-									all_state = {
-										if = {
-											limit = { is_core_of = GER }
-											is_owned_by = FROM
-										}
-									}
-								}
-							}
-						}
-						create_faction = "Treaty of Berlin"
-						set_global_flag = tpt_taken_treaty_berlin
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_treaty_rome }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							OR = {
-								owns_state = 2
-								tag = ITA
-								AND = {
-									NOT = { country_exists = ITA }
-									all_state = {
-										if = {
-											limit = { is_core_of = ITA }
-											is_owned_by = FROM
-										}
-									}
-								}
-							}
-						}
-						create_faction = "Treaty of Rome"
-						set_global_flag = tpt_taken_treaty_rome
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_treaty_moscow }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							OR = {
-								owns_state = 219
-								tag = SOV
-								AND = {
-									NOT = { country_exists = SOV }
-									all_state = {
-										if = {
-											limit = { is_core_of = SOV }
-											is_owned_by = FROM
-										}
-									}
-								}
-							}
-						}
-						create_faction = "Treaty of Moscow"
-						set_global_flag = tpt_taken_treaty_moscow
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_treaty_vienna }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							OR = {
-								owns_state = 4
-								tag = AUS
-								AND = {
-									NOT = { country_exists = AUS }
-									all_state = {
-										if = {
-											limit = { is_core_of = AUS }
-											is_owned_by = FROM
-										}
-									}
-								}
-							}
-						}
-						create_faction = "Treaty of Vienna"
-						set_global_flag = tpt_taken_treaty_vienna
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_treaty_warsaw }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							OR = {
-								owns_state = 10
-								tag = POL
-								AND = {
-									NOT = { country_exists = POL }
-									all_state = {
-										if = {
-											limit = { is_core_of = POL }
-											is_owned_by = FROM
-										}
-									}
-								}
-							}
-						}
-						create_faction = "Treaty of Warsaw"
-						set_global_flag = tpt_taken_treaty_warsaw
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_nato }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = democratic
-							tag = USA
-						}
-						create_faction = "NATO"
-						set_global_flag = tpt_taken_nato
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_lebensraum }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							OR = {
-								tag = POL
-								tag = SOV
-							}
-						}
-						create_faction = "Lebensraum"
-						set_global_flag = tpt_taken_lebensraum
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_fifth_international }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = communism
-							NOT = { tag = SOV }
-							NOT = {
-								has_country_leader = {
-									name = "Leon Trotsky"
-									ruling_only = yes
-								}
-							}
-						}
-						create_faction = "Fifth International"
-						set_global_flag = tpt_taken_fifth_international
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_532_international }
-							has_global_flag = tpt_taken_fifth_international
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = communism
-							NOT = { tag = SOV }
-							NOT = {
-								has_country_leader = {
-									name = "Leon Trotsky"
-									ruling_only = yes
-								}
-							}
-						}
-						create_faction = "Five Hundred Thirty-Second International"
-						set_global_flag = tpt_taken_532_international
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_communist_vanguard }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = communism
-						}
-						create_faction = "Communist Vanguard"
-						set_global_flag = tpt_taken_communist_vanguard
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_brownshirts }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = fascism
-						}
-						create_faction = "Brownshirts"
-						set_global_flag = tpt_taken_brownshirts
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_blackshirts }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = fascism
-						}
-						create_faction = "Blackshirts"
-						set_global_flag = tpt_taken_blackshirts
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_red_front }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = communism
-						}
-						create_faction = "Red Front"
-						set_global_flag = tpt_taken_red_front
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_liberation_pact }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = democratic
-						}
-						create_faction = "Liberation Pact"
-						set_global_flag = tpt_taken_liberation_pact
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_home_of_the_free }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = democratic
-						}
-						create_faction = "Home of the Free"
-						set_global_flag = tpt_taken_home_of_the_free
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_vertical_axis }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = fascism
-						}
-						create_faction = "Vertical Axis"
-						set_global_flag = tpt_taken_vertical_axis
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_peoples_united_republics }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = communism
-						}
-						create_faction = "People's United Republics"
-						set_global_flag = tpt_taken_peoples_united_republics
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_peacekeepers }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = democratic
-						}
-						create_faction = "Peacekeepers"
-						set_global_flag = tpt_taken_peacekeepers
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_global_defensive_alliance }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = democratic
-						}
-						create_faction = "Global Defensive Alliance"
-						set_global_flag = tpt_taken_global_defensive_alliance
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_central_states }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = neutrality
-						}
-						create_faction = "Central States"
-						set_global_flag = tpt_taken_central_states
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_iron_guard }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-							has_government = neutrality
-						}
-						create_faction = "Iron Guard"
-						set_global_flag = tpt_taken_iron_guard
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_entente_cordiale }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-						}
-						create_faction = "Entente Cordiale"
-						set_global_flag = tpt_taken_entente_cordiale
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_central_powers }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-						}
-						create_faction = "Central Powers"
-						set_global_flag = tpt_taken_central_powers
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_iron_front }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-						}
-						create_faction = "Iron Front"
-						set_global_flag = tpt_taken_iron_front
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_entente }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-						}
-						create_faction = "Entente"
-						set_global_flag = tpt_taken_entente
-						set_global_flag = tpt_stop_faction_names
-					}
-					if = {
-						limit = {
-							NOT = { has_global_flag = tpt_taken_new_world_order }
-							NOT = { has_global_flag = tpt_stop_faction_names }
-						}
-						create_faction = "New World Order"
-						set_global_flag = tpt_taken_new_world_order
-						set_global_flag = tpt_stop_faction_names
-					}
-					clr_global_flag = tpt_stop_faction_names
-					if = {
-						limit = {							
-							has_global_flag = tpt_taken_communist_vanguard
-							has_global_flag = tpt_taken_brownshirts
-							has_global_flag = tpt_taken_blackshirts
-							has_global_flag = tpt_taken_red_front
-							has_global_flag = tpt_taken_liberation_pact
-							has_global_flag = tpt_taken_home_of_the_free
-							has_global_flag = tpt_taken_peoples_united_republics
-							has_global_flag = tpt_taken_peacekeepers
-							has_global_flag = tpt_taken_global_defensive_alliance
-							has_global_flag = tpt_taken_central_states
-							has_global_flag = tpt_taken_iron_guard
-							has_global_flag = tpt_taken_entente_cordiale
-							has_global_flag = tpt_taken_central_powers
-							has_global_flag = tpt_taken_iron_front
-							has_global_flag = tpt_taken_entente
-							has_global_flag = tpt_taken_new_world_order
-						}
-						clr_global_flag = tpt_taken_communist_vanguard
-						clr_global_flag = tpt_taken_brownshirts
-						clr_global_flag = tpt_taken_blackshirts
-						clr_global_flag = tpt_taken_red_front
-						clr_global_flag = tpt_taken_liberation_pact
-						clr_global_flag = tpt_taken_home_of_the_free
-						clr_global_flag = tpt_taken_peoples_united_republics
-						clr_global_flag = tpt_taken_peacekeepers
-						clr_global_flag = tpt_taken_global_defensive_alliance
-						clr_global_flag = tpt_taken_central_states
-						clr_global_flag = tpt_taken_iron_guard
-						clr_global_flag = tpt_taken_entente_cordiale
-						clr_global_flag = tpt_taken_central_powers
-						clr_global_flag = tpt_taken_iron_front
-						clr_global_flag = tpt_taken_entente
-						clr_global_flag = tpt_taken_new_world_order
-					}
+					create_faction = AXIS_ALLIANCE
+					set_global_flag = AXIS_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
 				}
 				if = {
 					limit = {
-						any_country = { has_country_flag = tpt_actor }
+						has_government = fascism
+						NOT = { has_global_flag = CENTRAL_POWERS_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
 					}
-					every_country = {
-						limit = { has_country_flag = tpt_actor }
-						create_faction = "Toolpack"
-						clr_country_flag = tpt_actor
+					create_faction = CENTRAL_POWERS_ALLIANCE
+					set_global_flag = CENTRAL_POWERS_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				if = {
+					limit = {
+						has_government = fascism
+						NOT = { has_global_flag = STEEL_PACT_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
 					}
+					create_faction = STEEL_PACT_ALLIANCE
+					set_global_flag = STEEL_PACT_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				if = {
+					limit = {
+						has_government = fascism
+						NOT = { has_global_flag = FASCIST_INTERNATIONAL_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = FASCIST_INTERNATIONAL_ALLIANCE
+					set_global_flag = FASCIST_INTERNATIONAL_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				if = {
+					limit = {
+						has_government = fascism
+						NOT = { has_global_flag = WORLD_UNION_OF_NATIONAL_SOCIALISTS_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = WORLD_UNION_OF_NATIONAL_SOCIALISTS_ALLIANCE
+					set_global_flag = WORLD_UNION_OF_NATIONAL_SOCIALISTS_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				#Democratic
+				if = {
+					limit = {
+						has_government = democratic
+						NOT = { has_global_flag = ENTENTE_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = ENTENTE_ALLIANCE
+					set_global_flag = ENTENTE_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				if = {
+					limit = {
+						has_government = democratic
+						NOT = { has_global_flag = LIBERATION_PACT_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = LIBERATION_PACT_ALLIANCE
+					set_global_flag = LIBERATION_PACT_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				if = {
+					limit = {
+						has_government = democratic
+						NOT = { has_global_flag = DEMOCRATIC_UNION_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = DEMOCRATIC_UNION_ALLIANCE
+					set_global_flag = DEMOCRATIC_UNION_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				if = {
+					limit = {
+						has_government = democratic
+						NOT = { has_global_flag = PROGRESSIVE_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = PROGRESSIVE_ALLIANCE
+					set_global_flag = PROGRESSIVE_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				if = {
+					limit = {
+						has_government = democratic
+						NOT = { has_global_flag = EUROPEAN_FREE_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = EUROPEAN_FREE_ALLIANCE
+					set_global_flag = EUROPEAN_FREE_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				if = {
+					limit = {
+						has_government = democratic
+						NOT = { has_global_flag = GLOBAL_DEFENSIVE_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = GLOBAL_DEFENSIVE_ALLIANCE
+					set_global_flag = GLOBAL_DEFENSIVE_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				#Communism
+				if = {
+					limit = {
+						has_government = communism
+						NOT = { has_global_flag = THIRD_INTERNATIONAL_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = THIRD_INTERNATIONAL_ALLIANCE
+					set_global_flag = THIRD_INTERNATIONAL_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				if = {
+					limit = {
+						has_government = communism
+						NOT = { has_global_flag = FOURTH_INTERNATIONAL_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = FOURTH_INTERNATIONAL_ALLIANCE
+					set_global_flag = FOURTH_INTERNATIONAL_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				if = {
+					limit = {
+						has_government = communism
+						NOT = { has_global_flag = RED_FRONT_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = RED_FRONT_ALLIANCE
+					set_global_flag = RED_FRONT_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				if = {
+					limit = {
+						has_government = communism
+						NOT = { has_global_flag = SOCINTERN_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = SOCINTERN_ALLIANCE
+					set_global_flag = SOCINTERN_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				if = {
+					limit = {
+						has_government = communism
+						NOT = { has_global_flag = COMINFORM_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = COMINFORM_ALLIANCE
+					set_global_flag = COMINFORM_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				#Neutrality
+				if = {
+					limit = {
+						has_government = neutrality
+						NOT = { has_global_flag = NON_ALIGNED_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = NON_ALIGNED_ALLIANCE
+					set_global_flag = NON_ALIGNED_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				if = {
+					limit = {
+						has_government = neutrality
+						NOT = { has_global_flag = MONARCHIST_UNION_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = MONARCHIST_UNION_ALLIANCE
+					set_global_flag = MONARCHIST_UNION_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				if = {
+					limit = {
+						has_government = neutrality
+						NOT = { has_global_flag = DEFENCE_PACT_ALLIANCE_CREATED }
+						NOT = { has_global_flag = tpt_stop_faction_names }
+					}
+					create_faction = DEFENCE_PACT_ALLIANCE
+					set_global_flag = DEFENCE_PACT_ALLIANCE_CREATED
+					set_global_flag = tpt_stop_faction_names
+				}
+				clr_global_flag = tpt_stop_faction_names
+				if = {
+					limit = {
+						OR = {
+							has_global_flag = GLOBAL_DEFENSIVE_ALLIANCE_CREATED
+							has_global_flag = WORLD_UNION_OF_NATIONAL_SOCIALISTS_ALLIANCE_CREATED
+							has_global_flag = COMINFORM_ALLIANCE_CREATED
+							has_global_flag = DEFENCE_PACT_ALLIANCE_CREATED
+						}
+					}
+					clr_global_flag = AXIS_ALLIANCE_CREATED
+					clr_global_flag = CENTRAL_POWERS_ALLIANCE_CREATED
+					clr_global_flag = STEEL_PACT_ALLIANCE_CREATED
+					clr_global_flag = FASCIST_INTERNATIONAL_ALLIANCE_CREATED
+					clr_global_flag = WORLD_UNION_OF_NATIONAL_SOCIALISTS_ALLIANCE_CREATED
+					clr_global_flag = ENTENTE_ALLIANCE_CREATED
+					clr_global_flag = LIBERATION_PACT_ALLIANCE_CREATED
+					clr_global_flag = DEMOCRATIC_UNION_ALLIANCE_CREATED
+					clr_global_flag = PROGRESSIVE_ALLIANCE_CREATED
+					clr_global_flag = EUROPEAN_FREE_ALLIANCE_CREATED
+					clr_global_flag = GLOBAL_DEFENSIVE_ALLIANCE_CREATED
+					clr_global_flag = THIRD_INTERNATIONAL_ALLIANCE_CREATED
+					clr_global_flag = FOURTH_INTERNATIONAL_ALLIANCE_CREATED
+					clr_global_flag = RED_FRONT_ALLIANCE_CREATED
+					clr_global_flag = SOCINTERN_ALLIANCE_CREATED
+					clr_global_flag = COMINFORM_ALLIANCE_CREATED
+					clr_global_flag = NON_ALIGNED_ALLIANCE_CREATED
+					clr_global_flag = MONARCHIST_UNION_ALLIANCE_CREATED
+					clr_global_flag = DEFENCE_PACT_ALLIANCE_CREATED
 				}
 			}
 			tpt_dismantle_faction_click = {

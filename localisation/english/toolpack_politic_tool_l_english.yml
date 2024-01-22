@@ -78,6 +78,29 @@
  TPT_DISMANTLE_FACTION: "§HDismantle Faction§!\n\n"
  TPT_ADD_TO_FACTION: "§HAdd to Faction§!\n\n"
  TPT_LEAVE_FACTION: "§HLeave Faction§!\n\n"
+
+
+ AXIS_ALLIANCE: "Axis"
+ CENTRAL_POWERS_ALLIANCE: "Central Powers"
+ STEEL_PACT_ALLIANCE: "Steel Pact"
+ FASCIST_INTERNATIONAL_ALLIANCE: "Fascist International"
+ WORLD_UNION_OF_NATIONAL_SOCIALISTS_ALLIANCE: "World Union of National-Socialists"
+ ENTENTE_ALLIANCE: "Entente"
+ LIBERATION_PACT_ALLIANCE: "Liberation Pact"
+ DEMOCRATIC_UNION_ALLIANCE: "Democratic Union"
+ PROGRESSIVE_ALLIANCE: "Progressive Alliance"
+ EUROPEAN_FREE_ALLIANCE: "European Free Alliance"
+ GLOBAL_DEFENSIVE_ALLIANCE: "Global Defensive Pact"
+ THIRD_INTERNATIONAL_ALLIANCE: "Third International"
+ FOURTH_INTERNATIONAL_ALLIANCE: "Fourth International"
+ RED_FRONT_ALLIANCE: "Red Front"
+ SOCINTERN_ALLIANCE: "Socintern"
+ COMINFORM_ALLIANCE: "Cominform"
+ NON_ALIGNED_ALLIANCE: "Non-aligned Alliance"
+ MONARCHIST_UNION_ALLIANCE: "Monarchist Union"
+ DEFENCE_PACT_ALLIANCE: "Defence Pact"
+
+
  TPT_SET_MAJOR: "§HSet Major§!\n\n"
  TPT_SET_UNMAJOR: "§HSet as not Major§!\n\n"
 

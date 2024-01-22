@@ -9,6 +9,7 @@ guiTypes = {
 		origo = CENTER_RIGHT
 		fade_time = 300
 		fade_type = linear
+		moveable = yes
 		
 		
 		background = {

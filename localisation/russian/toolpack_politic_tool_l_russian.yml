@@ -78,6 +78,29 @@
  TPT_DISMANTLE_FACTION: "§HРаспустить альянс§!\n\n"
  TPT_ADD_TO_FACTION: "§HДобавить в альянс§!\n\n"
  TPT_LEAVE_FACTION: "§HВыйти из альянса§!\n\n"
+
+
+ AXIS_ALLIANCE: "Ось"
+ CENTRAL_POWERS_ALLIANCE: "Центральные державы"
+ STEEL_PACT_ALLIANCE: "Стальной пакт"
+ FASCIST_INTERNATIONAL_ALLIANCE: "Фашистский интернационал"
+ WORLD_UNION_OF_NATIONAL_SOCIALISTS_ALLIANCE: "Всемирный союз национал-социалистов"
+ ENTENTE_ALLIANCE: "Антанта"
+ LIBERATION_PACT_ALLIANCE: "Пакт свободы"
+ DEMOCRATIC_UNION_ALLIANCE: "Демократический союз"
+ PROGRESSIVE_ALLIANCE: "Прогрессивный альянс"
+ EUROPEAN_FREE_ALLIANCE: "Свободный Европейский Альянс"
+ GLOBAL_DEFENSIVE_ALLIANCE: "Глобальный оборонительный пакт"
+ THIRD_INTERNATIONAL_ALLIANCE: "3-ий Интернационал"
+ FOURTH_INTERNATIONAL_ALLIANCE: "4-ый Интернационал"
+ RED_FRONT_ALLIANCE: "Красный фронт"
+ SOCINTERN_ALLIANCE: "Социнтерн"
+ COMINFORM_ALLIANCE: "Коминформ"
+ NON_ALIGNED_ALLIANCE: "Альянс Неприсоединения"
+ MONARCHIST_UNION_ALLIANCE: "Монархический союз"
+ DEFENCE_PACT_ALLIANCE: "Оборонный договор"
+
+
  TPT_SET_MAJOR: "§HСделать мажором§!\n\n"
  TPT_SET_UNMAJOR: "§HСделать не мажором§!\n\n"
 

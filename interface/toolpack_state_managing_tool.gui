@@ -6,6 +6,7 @@ guiTypes = {
 		size = { width = 494 height = 255 }
 		orientation = CENTER_RIGHT
 		origo = center_right
+		moveable = yes
 
 		fade_time = 300
 		fade_type = linear
