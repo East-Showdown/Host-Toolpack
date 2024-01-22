@@ -470,6 +470,10 @@ spriteTypes = {
 		name = "GFX_tpt_major_blue"
 		texturefile = "gfx/toolpack_interface/tpt_interface/tpt_icons/tpt_major_blue.dds"
 	}
+	SpriteType = { 
+		name = "GFX_tpt_civil_war_bg"
+		texturefile = "gfx/toolpack_interface/tpt_interface/tpt_civil_war_bg.dds"
+	}
 ###########
 ### BST ###
 ###########
@@ -633,33 +637,6 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_bst_70pc_refinery"
 		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_refinery.dds"
-	}
-###########
-### MST ###
-###########
-	SpriteType = { 
-		name = "GFX_mst_focus_btn_off"
-		texturefile = "gfx/toolpack_interface/mst_interface/mst_focus_btn_off.dds"
-	}
-	SpriteType = { 
-		name = "GFX_mst_focus_btn_green"
-		texturefile = "gfx/toolpack_interface/mst_interface/mst_focus_btn_green.dds"
-	}
-	SpriteType = { 
-		name = "GFX_mst_focus_btn_red"
-		texturefile = "gfx/toolpack_interface/mst_interface/mst_focus_btn_red.dds"
-	}
-	SpriteType = { 
-		name = "GFX_mst_focus_btn_blue"
-		texturefile = "gfx/toolpack_interface/mst_interface/mst_focus_btn_blue.dds"
-	}
-	SpriteType = {
-		name = "GFX_mst_focus_btn_orange"
-		texturefile = "gfx/toolpack_interface/mst_interface/mst_focus_btn_orange.dds"
-	}
-	SpriteType = { 
-		name = "GFX_mst_focus_btn_yellow"
-		texturefile = "gfx/toolpack_interface/mst_interface/mst_focus_btn_yellow.dds"
 	}
 ###########
 ### RMT ###

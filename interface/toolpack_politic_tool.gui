@@ -152,13 +152,6 @@ guiTypes = {
 			orientation = left
 		}
 		buttonType = {
-			name = "tpt_tab_button_frame_1e"
-			position = { x = 441 y = 251 }
-			spriteType = "GFX_tpt_tab_frame_2_short"
-			scale = 1
-			pdx_tooltip = "TPT_TAB_SWITCHER_TT"
-		}
-		buttonType = {
 			name = "tpt_tab_button_frame_2e"
 			position = { x = 441 y = 251 }
 			spriteType = "GFX_tpt_tab_frame_1_short"
@@ -170,7 +163,7 @@ guiTypes = {
 			spriteType = "GFX_tpt_research_tab_icon"
 			position = { x = 455 y = 254 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 			scale = 0.6
 		}
 ### IDEOLOGY ###
@@ -408,182 +401,8 @@ guiTypes = {
 			scale = 0.45
 		}
 ### DIPLOMACY ###
-		buttonType = {
-			name = "tpt_guarantee" 
-			position = { x = 30 y = 90 }
-			spriteType = "GFX_tpt_guarantee_green"
-			pdx_tooltip = "TPT_GUARANTEE_TT"
-			scale = 1
-		}
-		buttonType = {
-			name = "tpt_no_guarantee" 
-			position = { x = 85 y = 90 }
-			spriteType = "GFX_tpt_guarantee_orange"
-			pdx_tooltip = "TPT_UNGUARANTEE_TT"
-			scale = 1
-		}
-		buttonType = {
-			name = "tpt_remove_all_guarantees" 
-			position = { x = 140 y = 90 }
-			spriteType = "GFX_tpt_guarantee_red"
-			pdx_tooltip = "TPT_REMOVE_ALL_GUARANTEES_TT"
-			scale = 1
-		}
-		buttonType = {
-			name = "tpt_access" 
-			position = { x = 30 y = 140 }
-			spriteType = "GFX_tpt_access_green"
-			pdx_tooltip = "TPT_ACCESS_TT"
-			scale = 1
-		}
-		buttonType = {
-			name = "tpt_no_access" 
-			position = { x = 85 y = 140 }
-			spriteType = "GFX_tpt_access_orange"
-			pdx_tooltip = "TPT_UNACCESS_TT"
-			scale = 1
-		}
-		buttonType = {
-			name = "tpt_remove_all_access" 
-			position = { x = 140 y = 140 }
-			spriteType = "GFX_tpt_access_red"
-			pdx_tooltip = "TPT_REMOVE_ALL_ACCESS_TT"
-			scale = 1
-		}
-		buttonType = {
-			name = "tpt_nap" 
-			position = { x = 30 y = 190 }
-			spriteType = "GFX_tpt_nap_green"
-			pdx_tooltip = "TPT_NAP_TT"
-			scale = 1
-		}
-		buttonType = {
-			name = "tpt_no_nap" 
-			position = { x = 85 y = 190 }
-			spriteType = "GFX_tpt_nap_orange"
-			pdx_tooltip = "TPT_UNNAP_TT"
-			scale = 1
-		}
-		buttonType = {
-			name = "tpt_remove_all_naps" 
-			position = { x = 140 y = 190 }
-			spriteType = "GFX_tpt_nap_red"
-			pdx_tooltip = "TPT_REMOVE_ALL_NAPS_TT"
-			scale = 1
-		}
-		buttonType = {
-			name = "tpt_decrease_opinion"
-			position = { x = 284 y = 100 }
-			spriteType = "GFX_subtract_one"
-			pdx_tooltip = "TPT_DEC_OP"
-			scale = 1
-		}
-		buttonType = {
-			name = "tpt_increase_opinion"
-			position = { x = 358 y = 100 }
-			spriteType = "GFX_add_one"
-			pdx_tooltip = "TPT_INC_OP"
-			scale = 1
-		}
-		instantTextboxType = {
-			name = "tpt_opinion_value"
-			position = { x = 313 y = 102 }
-			font = "hoi_18mbs"
-			text = "[?global.tpt_op_value]"
-			maxWidth = 38
-			maxHeight = 23
-			format = center
-		}
-		instantTextboxType = {
-			name = "tpt_opinion_text"
-			position = { x = 405 y = 102 }
-			font = "hoi_18mbs"
-			text = "[tpt_op_or_trade]"
-			maxWidth = 106
-			maxHeight = 23
-			format = left
-		}
-		buttonType = {
-			name = "tpt_op_on"
-			position = { x = 245 y = 102 }
-			spriteType = "GFX_cat_button_off"
-			pdx_tooltip = "TPT_OPINON_ON"
-			scale = 0.7
-		}
-		buttonType = {
-			name = "tpt_op_off" 
-			position = { x = 245 y = 102 }
-			spriteType = "GFX_cat_button_on"
-			pdx_tooltip = "TPT_OPINON_OFF"
-			scale = 0.7
-		}
-		buttonType = {
-			name = "tpt_decrease_trade"
-			position = { x = 284 y = 135 }
-			spriteType = "GFX_subtract_one"
-			pdx_tooltip = "TPT_DEC_OP"
-			scale = 1
-		}
-		buttonType = {
-			name = "tpt_increase_trade"
-			position = { x = 358 y = 135 }
-			spriteType = "GFX_add_one"
-			pdx_tooltip = "TPT_INC_OP"
-			scale = 1
-		}
-		instantTextboxType = {
-			name = "tpt_trade_value"
-			position = { x = 313 y = 137 }
-			font = "hoi_18mbs"
-			text = "[?global.tpt_trade_value]"
-			maxWidth = 38
-			maxHeight = 23
-			format = center
-		}
-		instantTextboxType = {
-			name = "tpt_trade_text"
-			position = { x = 405 y = 134 }
-			font = "hoi_18mbs"
-			text = "TPT_TRADE_TEXT"
-			maxWidth = 106
-			maxHeight = 23
-			format = left
-		}
-		buttonType = {
-			name = "tpt_trade_on"
-			position = { x = 245 y = 135 }
-			spriteType = "GFX_cat_button_off"
-			pdx_tooltip = "TPT_TRADE_ON"
-			scale = 0.7
-		}
-		buttonType = {
-			name = "tpt_trade_off" 
-			position = { x = 245 y = 135 }
-			spriteType = "GFX_cat_button_on"
-			pdx_tooltip = "TPT_TRADE_OFF"
-			scale = 0.7
-		}
-		buttonType = {
-			name = "tpt_add_opinion_button" 
-			position = { x = 261 y = 177 }
-			spriteType = "GFX_tpt_opinion_green"
-			pdx_tooltip = "TPT_ADD_OPINION_TT"
-			scale = 1
-		}
-		buttonType = {
-			name = "tpt_remove_opinion_button" 
-			position = { x = 316 y = 177 }
-			spriteType = "GFX_tpt_opinion_orange"
-			pdx_tooltip = "TPT_REMOVE_OPINION_TT"
-			scale = 1
-		}
-		buttonType = {
-			name = "tpt_remove_all_opinions_button" 
-			position = { x = 371 y = 177 }
-			spriteType = "GFX_tpt_opinion_red"
-			pdx_tooltip = "TPT_REMOVE_ALL_OPINIONS"
-			scale = 1
-		}
+
+
 ### STANCE ###
 
 		buttonType = {
@@ -829,63 +648,6 @@ guiTypes = {
 			maxHeight = 23
 			format = center
 		}
-### RESEARCH ###
-		buttonType = {
-			name = "tpt_remove_rs_slot"
-			position = { x = 33 y = 100 }
-			spriteType = "GFX_subtract_one"
-			pdx_tooltip = "TPT_REMOVE_RS_SLOT"
-			scale = 1
-		}
-		buttonType = {
-			name = "tpt_add_rs_slot"
-			position = { x = 107 y = 100 }
-			spriteType = "GFX_add_one"
-			pdx_tooltip = "TPT_ADD_RS_SLOT"
-			scale = 1
-		}
-		instantTextboxType = {
-			name = "tpt_rs_slot_value"
-			position = { x = 62 y = 102 }
-			font = "hoi_18mbs"
-			text = "[?this.amount_research_slots]"
-			maxWidth = 38
-			maxHeight = 23
-			format = center
-		}
-		instantTextboxType = {
-			name = "tpt_rs_slot_text"
-			position = { x = 154 y = 102 }
-			font = "hoi_18mbs"
-			text = "TPT_RS_SLOT"
-			maxWidth = 106
-			maxHeight = 23
-			format = left
-		}
-		buttonType = {
-			name = "tpt_set_0_rs_slots"
-			position = { x = 21 y = 145 }
-			shortcut = "shift+ctrl+r"			
-			spriteType = "GFX_tpt_0_rs_slots_icon"
-			pdx_tooltip = "TPT_SET_0_RS_SLOTS"
-			scale = 0.7
-		}
-		buttonType = {
-			name = "tpt_set_100_rs_slots"
-			position = { x = 73 y = 149 }
-			shortcut = "shift+ctrl+r"			
-			spriteType = "GFX_tpt_100_rs_slots_icon"
-			pdx_tooltip = "TPT_SET_100_RS_SLOTS"
-			scale = 0.7
-		}
-		buttonType = {
-			name = "tpt_reset_rs_slots"
-			position = { x = 109 y = 149 }
-			shortcut = "shift+ctrl+r"			
-			spriteType = "GFX_tpt_reset_slot_amount_icon"
-			pdx_tooltip = "TPT_RESET_RS_SLOTS"
-			scale = 0.7
-		}
 	}
 
 	containerWindowType = {
@@ -901,7 +663,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			spriteType = "GFX_sst_convoy_bg"
+			spriteType = "GFX_tpt_civil_war_bg"
 		}
 		buttonType = {
 			name = "tpt_cw_close_window"

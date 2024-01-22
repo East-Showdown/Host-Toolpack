@@ -1,14 +1,4 @@
 
-mst_reformat_variables = {
-	set_variable = { global.mst_display_variable_C1 = global.mst_variable_C1 }
-	set_variable = { global.mst_display_variable_C2 = global.mst_variable_C2 }
-	set_variable = { global.mst_display_variable_S1 = global.mst_variable_S1 }
-	set_variable = { global.mst_display_variable_S2 = global.mst_variable_S2 }
-	divide_variable = { global.mst_display_variable_C1 = 1000 }
-	divide_variable = { global.mst_display_variable_C2 = 1000 }
-	divide_variable = { global.mst_display_variable_S1 = 1000 }
-	divide_variable = { global.mst_display_variable_S2 = 1000 }
-}
 
 bst_count_buildings = {
 	bst_count_navf = yes

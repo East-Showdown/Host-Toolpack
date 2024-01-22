@@ -42,7 +42,6 @@ guiTypes = {
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
-		moveable = yes
 		
 		background = {
 			name = "Background"
@@ -246,39 +245,18 @@ guiTypes = {
 		}
 
 
-### MST ###
-
-		buttonType = {
-			name = "mst_open"
-			quadTextureSprite = "GFX_generic_text_bg_203"	
-			position = { x = 25 y = 30 }
-			clicksound = click_ok
-			oversound = ui_menu_over
-		}
-		instantTextboxType = {
-			name = "mst_title"
-			position = { x = 0 y = 34 }
-			font = "hoi_18mbs"
-			text = "[MST_ACTIVITY_S]"
-			maxWidth = 250
-			maxHeight = 23
-			format = center
-			alwaystransparent = yes
-		}
-
-
 ### RMT ###
 
 		buttonType = {
 			name = "rmt_open"
 			quadTextureSprite = "GFX_generic_text_bg_203"
-			position = { x = 25 y = 70 }
+			position = { x = 25 y = 270 }
 			clicksound = click_ok
 			oversound = ui_menu_over
 		}
 		
 		instantTextboxType = {
-			position = { x = 0 y = 74 }
+			position = { x = 0 y = 274 }
 			name = "rmt_title"
 			font = "hoi_18mbs"
 			text = "[RMT_ACTIVITY]"
@@ -320,7 +298,6 @@ guiTypes = {
 		size = { width = 480 height=382 }
 		orientation= center
 		origo = center
-		moveable = yes
 		fade_time = 200
 		fade_type = linear
 		click_to_front = yes
