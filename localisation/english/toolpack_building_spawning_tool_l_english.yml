@@ -30,8 +30,6 @@
  
  #TOOLTIPS
  BST_COLLAPSE_WINDOW_2_TT: "§YOpen or close the second window§!"
- BST_PRIORITY_UP_TT: "§YIncrease Priority§!"
- BST_PRIORITY_DOWN_TT: "§YDecrease Priority§!"
  BST_MINIMUM_TT: "§YSet building level to zero§!"
  BST_REMOVE_TT: "§YRemove one building level§!"
  BST_ADD_TT: "§YAdd one building level§!"
@@ -86,8 +84,13 @@
  BST_AIRB_COUNTRY_AMOUNT_TT: "§YThe average level of §Gair bases§! per state in this country"
  BST_AA_COUNTRY_AMOUNT_TT: "§YThe average level of §Ganti-air buildings§! per state in this country"
  BST_RADAR_COUNTRY_AMOUNT_TT: "§YThe average level of §Gradar stations§! per state in this country"
+
+ BST_STATE_OWNED_AMOUNT: "Total regions owned: [?This.num_owned_states]"
  BST_STATE_OWNED_AMOUNT_TT: "§YThe number of states owned by this country§"
+ BST_STATE_CONTROLLED_AMOUNT: "Total regions under occupation: [?This.num_controlled_states]"
  BST_STATE_CONTROLLED_AMOUNT_TT: "§YThe number of states controlled by this country§"
+
+ 
  
  #CIVILIAN FACTORIES
  BST_CIVF_AMOUNT_0: "0"
@@ -402,26 +405,3 @@
  BST_FUEL_SILO_AMOUNT_10: "10"
  BST_FUEL_SILO_AMOUNT_10_PLUS: "10+"
  
- 
- #FREE BUILDING SLOTS
- BST_FREE_SLOT_AMOUNT_0: "0(+)"
- BST_FREE_SLOT_AMOUNT_1: "1(+)"
- BST_FREE_SLOT_AMOUNT_2: "2(+)"
- BST_FREE_SLOT_AMOUNT_3: "3(+)"
- BST_FREE_SLOT_AMOUNT_4: "4(+)"
- BST_FREE_SLOT_AMOUNT_5: "5(+)"
- BST_FREE_SLOT_AMOUNT_6: "6(+)"
- BST_FREE_SLOT_AMOUNT_7: "7(+)"
- BST_FREE_SLOT_AMOUNT_8: "8(+)"
- BST_FREE_SLOT_AMOUNT_9: "9(+)"
- BST_FREE_SLOT_AMOUNT_10: "10(+)"
- BST_FREE_SLOT_AMOUNT_11: "11(+)"
- BST_FREE_SLOT_AMOUNT_12: "12(+)"
- BST_FREE_SLOT_AMOUNT_13: "13(+)"
- BST_FREE_SLOT_AMOUNT_14: "14(+)"
- BST_FREE_SLOT_AMOUNT_15: "15(+)"
- BST_FREE_SLOT_AMOUNT_16: "16(+)"
- BST_FREE_SLOT_AMOUNT_17: "17(+)"
- BST_FREE_SLOT_AMOUNT_18: "18(+)"
- BST_FREE_SLOT_AMOUNT_19: "19(+)"
- BST_FREE_SLOT_AMOUNT_20: "20(+)"

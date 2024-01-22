@@ -94,11 +94,6 @@
  TPT_THREAT_SUB_20: "§HAdd World Tension Amount: §G-20§!§!"
 
  
- TPT_OPINON_ON: "§HEnable Opinion Modifiers§!"
- TPT_OPINON_OFF: "§HDisable Opinion Modifiers§!"
- TPT_TRADE_ON: "§HEnable Trade Modifiers§!"
- TPT_TRADE_OFF: "§HDisable Trade Modifiers§!"
- 
  TPT_CREATE_FACTION_TT: "[!tpt_create_faction_click]"
  TPT_DISMANTLE_FACTION_TT: "[!tpt_dismantle_faction_click]"
  TPT_ADD_TO_FACTION_TT: "[!tpt_add_to_faction_click]"
@@ -110,58 +105,13 @@
  TPT_TRUCE_TT: "[!tpt_truce_button_click]"
  TPT_CW_TT: "[!tpt_cw_button_click]"
  
- TPT_WAR_TEXT: "War"
- TPT_FACTION_TEXT: "Faction"
- TPT_TRADE_TEXT: "Trade"
+ 
  TPT_WORLD_TENSION_TEXT: "World Tension:"
  
- #DIPLOMACY_MILACC: "receiving military access"  #duplicate with base game and seemingly unused
- 
- TPT_AT_EXPLANATION: "§HIf no country is marked with the §Gnormal (green) marking button§!, a selected country will perform actions in relation to the §GAutotarget§!.§!"
- 
+
  TPT_STABILITY_TEXT: "Stability:\n[TPT_STABILITY]%"
  TPT_WAR_SUPPORT_TEXT: "War Support:\n[TPT_WAR_SUPPORT]%"
  
- TPT_neg_100_tno: "Toolpack"
- TPT_neg_90_tno: "Toolpack"
- TPT_neg_80_tno: "Toolpack"
- TPT_neg_70_tno: "Toolpack"
- TPT_neg_60_tno: "Toolpack"
- TPT_neg_50_tno: "Toolpack"
- TPT_neg_40_tno: "Toolpack"
- TPT_neg_30_tno: "Toolpack"
- TPT_neg_20_tno: "Toolpack"
- TPT_neg_10_tno: "Toolpack"
- TPT_pos_100_tno: "Toolpack"
- TPT_pos_90_tno: "Toolpack"
- TPT_pos_80_tno: "Toolpack"
- TPT_pos_70_tno: "Toolpack"
- TPT_pos_60_tno: "Toolpack"
- TPT_pos_50_tno: "Toolpack"
- TPT_pos_40_tno: "Toolpack"
- TPT_pos_30_tno: "Toolpack"
- TPT_pos_20_tno: "Toolpack"
- TPT_pos_10_tno: "Toolpack"
- TPT_neg_100_tyes: "Toolpack"
- TPT_neg_90_tyes: "Toolpack"
- TPT_neg_80_tyes: "Toolpack"
- TPT_neg_70_tyes: "Toolpack"
- TPT_neg_60_tyes: "Toolpack"
- TPT_neg_50_tyes: "Toolpack"
- TPT_neg_40_tyes: "Toolpack"
- TPT_neg_30_tyes: "Toolpack"
- TPT_neg_20_tyes: "Toolpack"
- TPT_neg_10_tyes: "Toolpack"
- TPT_pos_100_tyes: "Toolpack"
- TPT_pos_90_tyes: "Toolpack"
- TPT_pos_80_tyes: "Toolpack"
- TPT_pos_70_tyes: "Toolpack"
- TPT_pos_60_tyes: "Toolpack"
- TPT_pos_50_tyes: "Toolpack"
- TPT_pos_40_tyes: "Toolpack"
- TPT_pos_30_tyes: "Toolpack"
- TPT_pos_20_tyes: "Toolpack"
- TPT_pos_10_tyes: "Toolpack"
  
  TPT_STABILITY_0: "0"
  TPT_STABILITY_1: "1"

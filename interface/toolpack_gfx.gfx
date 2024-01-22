@@ -503,28 +503,12 @@ spriteTypes = {
 		texturefile = "gfx/toolpack_interface/bst_interface/bst_bg.dds"
 	}
 	SpriteType = { 
-		name = "GFX_bst_expand_btn"
-		texturefile = "gfx/toolpack_interface/bst_interface/bst_expand_btn.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_collapse_btn"
-		texturefile = "gfx/toolpack_interface/bst_interface/bst_collapse_btn.dds"
-	}
-	SpriteType = { 
 		name = "GFX_bst_min_max_btn"
 		texturefile = "gfx/toolpack_interface/bst_interface/bst_min_max_btn.dds"
 	}
 	SpriteType = { 
 		name = "GFX_bst_min_max_btn2"
 		texturefile = "gfx/toolpack_interface/bst_interface/bst_min_max_btn2.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_increase_priority"
-		texturefile = "gfx/toolpack_interface/bst_interface/bst_increase_priority.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_decrease_priority"
-		texturefile = "gfx/toolpack_interface/bst_interface/bst_decrease_priority.dds"
 	}
 	SpriteType = { 
 		name = "GFX_bst_mark_button_red"
@@ -576,7 +560,7 @@ spriteTypes = {
 	}
 	SpriteType = { 
 		name = "GFX_bst_rocket"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings/bst_rocket.dds"
+		texturefile = "gfx/tool	pack_interface/bst_interface/buildings/bst_rocket.dds"
 	}
 	SpriteType = { 
 		name = "GFX_bst_nuclear"

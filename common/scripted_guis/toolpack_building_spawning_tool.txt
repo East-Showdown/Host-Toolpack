@@ -424,33 +424,6 @@ scripted_gui = {
 			bst_add_technology_button_14 = {
 				y = var:global.bst_position_14_4
 			}
-			bst_background_15 = {
-				y = var:global.bst_position_15
-			}
-			bst_priority_up_btn_15 = {
-				y = var:global.bst_position_15
-			}
-			bst_building_icon_15 = {
-				y = var:global.bst_position_15
-			}
-			bst_priority_down_btn_15 = {
-				y = var:global.bst_position_15_2
-			}
-			bst_min_button_15 = {
-				y = var:global.bst_position_15_3
-			}
-			bst_remove_buildings_15 = {
-				y = var:global.bst_position_15_3
-			}
-			bst_buildings_amount_15 = {
-				y = var:global.bst_position_15_3
-			}
-			bst_add_buildings_15 = {
-				y = var:global.bst_position_15_3
-			}
-			bst_max_button_15 = {
-				y = var:global.bst_position_15_3
-			}
 		}
 		effects = {
 			bst_mark_button_click = {
@@ -592,12 +565,6 @@ scripted_gui = {
 			}
 			bst_priority_down_btn_14_click = {
 				bst_move_down_section_position_14= yes
-			}
-			bst_priority_up_btn_15_click = {
-				bst_move_up_section_position_15 = yes
-			}
-			bst_priority_down_btn_15_click = {
-				bst_move_down_section_position_15= yes
 			}
 			bst_min_button_1_click = {
 				if = {
@@ -2759,82 +2726,6 @@ scripted_gui = {
 				}
 				bst_count_buildings = yes
 			}
-			bst_add_buildings_15_click = {
-				# if = {
-				# 	limit = {
-				# 		all_state = {
-				# 			NOT = { has_state_flag = bst_marked }
-				# 		}
-				# 	}
-				# 	add_building_construction = {
-				# 		type = fuel_silo
-				# 		level = 1
-				# 		instant_build = yes
-				# 	}
-				# }
-				if = {
-					limit = {
-						any_state = { has_state_flag = bst_marked }
-					}
-					every_state = {
-						limit = { has_state_flag = bst_marked }
-						every_state = {
-							limit = {
-								has_state_flag = bst_marked
-								NOT = {
-									state = PREV
-								}
-							}
-							build_railway = {
-								level = 1
-								build_only_on_allied = no
-								#fallback = yes
-								start_state = THIS
-								target_state = PREV
-							}
-						}
-					}
-				}
-				#bst_count_buildings = yes
-			}
-			bst_max_button_15_click = {
-				# if = {
-				# 	limit = {
-				# 		all_state = {
-				# 			NOT = { has_state_flag = bst_marked }
-				# 		}
-				# 	}
-				# 	set_building_level = {
-				# 		type = fuel_silo
-				# 		level = 1000
-				# 		instant_build = yes
-				# 	}
-				# }
-				if = {
-					limit = {
-						any_state = { has_state_flag = bst_marked }
-					}
-					every_state = {
-						limit = { has_state_flag = bst_marked }
-						every_state = {
-							limit = {
-								has_state_flag = bst_marked
-								NOT = {
-									state = PREV
-								}
-							}
-							build_railway = {
-								level = 5
-								build_only_on_allied = no
-								#fallback = yes
-								start_state = THIS
-								target_state = PREV
-							}
-						}
-					}
-				}
-				#bst_count_buildings = yes
-			}
 		}
 		
 		triggers = {
@@ -3748,28 +3639,6 @@ scripted_gui = {
 					}
 				}
 			}
-			bst_add_buildings_15_click_enabled = {
-				any_state = {
-					has_state_flag = bst_marked
-					any_state = {
-						NOT = {
-							state = PREV
-						}
-						has_state_flag = bst_marked
-					}
-				}
-			}
-			bst_max_button_15_click_enabled = {
-				any_state = {
-					has_state_flag = bst_marked
-					any_state = {
-						NOT = {
-							state = PREV
-						}
-						has_state_flag = bst_marked
-					}
-				}
-			}
 			bst_min_button_11_click_enabled = {
 				always = yes
 			}
@@ -3913,13 +3782,6 @@ scripted_gui = {
 					}
 				}
 			}
-			bst_priority_up_btn_15_click_enabled = {
-				NOT = {
-					check_variable = {
-						global.bst_position_15 = 0
-					}
-				}
-			}
 			bst_priority_down_btn_1_click_enabled = {
 				NOT = {
 					check_variable = {
@@ -4015,13 +3877,6 @@ scripted_gui = {
 				NOT = {
 					check_variable = {
 						global.bst_position_14 = 462
-					}
-				}
-			}
-			bst_priority_down_btn_15_click_enabled = {
-				NOT = {
-					check_variable = {
-						global.bst_position_15 = 462
 					}
 				}
 			}

@@ -17,14 +17,14 @@ guiTypes = {
 	
 		containerWindowType = {
 			name = "bst_main_container"
-			position = { x = -255 y = -100 }
+			position = { x = 25 y = -165 }
 			size = { width = 398 height = 225 }
 			orientation = CENTER_RIGHT
 			origo = center_right
 	
 			fade_time = 300
 			fade_type = linear
-			moveable = yes
+			
 			
 			background = {
 				name = "Background"
@@ -115,24 +115,6 @@ guiTypes = {
 				spriteType = "GFX_civ_factory"
 				pdx_tooltip = "BST_COLLAPSE_WINDOW_2_TT"
 			}
-	#		buttonType = {
-	#			name = "bst_collapse_country_window"
-	#			quadTextureSprite = "GFX_toolpack_expand_left"
-	#			position = { x = 377 y = 207 }
-	#			pdx_tooltip = "BST_COLLAPSE_COUNTRY_WINDOW"
-	#			clicksound = click_ok
-	#			oversound = ui_menu_over
-	#			scale = 0.9
-	#		}
-	#		buttonType = {
-	#			name = "bst_expand_country_window"
-	#			quadTextureSprite = "GFX_toolpack_expand_right"
-	#			position = { x = 377 y = 207 }
-	#			pdx_tooltip = "BST_EXPAND_COUNTRY_WINDOW"
-	#			clicksound = click_ok
-	#			oversound = ui_menu_over
-	#			scale = 0.9
-	#		}
 			containerWindowType = {
 				name = "bst_grid_window"
 				position = { x = 10 y = 88 }
@@ -166,22 +148,6 @@ guiTypes = {
 						name = "bst_background_1"
 						position = { x = 0 y = 10 }
 						quadTextureSprite = "GFX_bst_section_bg"
-					}
-					buttonType = {
-						name = "bst_priority_up_btn_1"
-						position = { x = 0 y = 0 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_1"
-						position = { x = -1 y = 15 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
 					}
 					iconType = {
 						name = "bst_building_icon_1"
@@ -249,22 +215,6 @@ guiTypes = {
 						quadTextureSprite = "GFX_bst_section_bg"
 						scale = 1
 					}
-					buttonType = {
-						name = "bst_priority_up_btn_2"
-						position = { x = 0 y = 33 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_2"
-						position = { x = -1 y = 48 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
-					}
 					iconType = {
 						name = "bst_building_icon_2"
 						position = { x = 17 y = 33 }	
@@ -328,22 +278,6 @@ guiTypes = {
 						position = { x = 0 y = 66 }
 						quadTextureSprite = "GFX_bst_section_bg"
 						scale = 1
-					}
-					buttonType = {
-						name = "bst_priority_up_btn_3"
-						position = { x = 0 y = 66 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_3"
-						position = { x = -1 y = 81 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
 					}
 					iconType = {
 						name = "bst_building_icon_3"
@@ -409,22 +343,6 @@ guiTypes = {
 						quadTextureSprite = "GFX_bst_section_bg"
 						scale = 1
 					}
-					buttonType = {
-						name = "bst_priority_up_btn_4"
-						position = { x = 0 y = 99 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_4"
-						position = { x = -1 y = 114 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
-					}
 					iconType = {
 						name = "bst_building_icon_4"
 						position = { x = 17 y = 99 }	
@@ -488,22 +406,6 @@ guiTypes = {
 						position = { x = 0 y = 132 }
 						quadTextureSprite = "GFX_bst_section_bg"
 						scale = 1
-					}
-					buttonType = {
-						name = "bst_priority_up_btn_5"
-						position = { x = 0 y = 132 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_5"
-						position = { x = -1 y = 147 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
 					}
 					iconType = {
 						name = "bst_building_icon_5"
@@ -569,22 +471,6 @@ guiTypes = {
 						quadTextureSprite = "GFX_bst_section_bg"
 						scale = 1
 					}
-					buttonType = {
-						name = "bst_priority_up_btn_6"
-						position = { x = 0 y = 165 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_6"
-						position = { x = -1 y = 180 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
-					}
 					iconType = {
 						name = "bst_building_icon_6"
 						position = { x = 17 y = 165 }	
@@ -648,22 +534,6 @@ guiTypes = {
 						position = { x = 0 y = 198 }
 						quadTextureSprite = "GFX_bst_section_bg"
 						scale = 1
-					}
-					buttonType = {
-						name = "bst_priority_up_btn_7"
-						position = { x = 0 y = 198 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_7"
-						position = { x = -1 y = 213 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
 					}
 					iconType = {
 						name = "bst_building_icon_7"
@@ -738,22 +608,6 @@ guiTypes = {
 						quadTextureSprite = "GFX_bst_section_bg"
 						scale = 1
 					}
-					buttonType = {
-						name = "bst_priority_up_btn_8"
-						position = { x = 0 y = 231 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_8"
-						position = { x = -1 y = 246 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
-					}
 					iconType = {
 						name = "bst_building_icon_8"
 						position = { x = 17 y = 231 }	
@@ -827,26 +681,10 @@ guiTypes = {
 						quadTextureSprite = "GFX_bst_section_bg"
 						scale = 1
 					}
-					buttonType = {
-						name = "bst_priority_up_btn_9"
-						position = { x = 0 y = 264 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_9"
-						position = { x = -1 y = 279 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
-					}
 					iconType = {
 						name = "bst_building_icon_9"
 						position = { x = 17 y = 264 }	
-						spriteType = "GFX_bst_rocket"
+						spriteType = "GFX_bst_70pc_rocket"
 						scale = 0.7
 						pdx_tooltip = "BST_ROC_ICON_TT"
 					}
@@ -915,22 +753,6 @@ guiTypes = {
 						position = { x = 0 y = 297 }
 						quadTextureSprite = "GFX_bst_section_bg"
 						scale = 1
-					}
-					buttonType = {
-						name = "bst_priority_up_btn_10"
-						position = { x = 0 y = 297 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_10"
-						position = { x = -1 y = 312 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
 					}
 					iconType = {
 						name = "bst_building_icon_10"
@@ -1004,22 +826,6 @@ guiTypes = {
 						position = { x = 0 y = 330 }
 						quadTextureSprite = "GFX_bst_section_bg"
 						scale = 1
-					}
-					buttonType = {
-						name = "bst_priority_up_btn_11"
-						position = { x = 0 y = 330 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_11"
-						position = { x = -1 y = 345 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
 					}
 					iconType = {
 						name = "bst_building_icon_11"
@@ -1101,22 +907,6 @@ guiTypes = {
 						quadTextureSprite = "GFX_bst_section_bg"
 						scale = 1
 					}
-					buttonType = {
-						name = "bst_priority_up_btn_12"
-						position = { x = 0 y = 363 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_12"
-						position = { x = -1 y = 378 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
-					}
 					iconType = {
 						name = "bst_building_icon_12"
 						position = { x = 17 y = 363 }	
@@ -1196,22 +986,6 @@ guiTypes = {
 						position = { x = 0 y = 396 }
 						quadTextureSprite = "GFX_bst_section_bg"
 						scale = 1
-					}
-					buttonType = {
-						name = "bst_priority_up_btn_13"
-						position = { x = 0 y = 396 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_13"
-						position = { x = -1 y = 411 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
 					}
 					iconType = {
 						name = "bst_building_icon_13"
@@ -1293,22 +1067,6 @@ guiTypes = {
 						quadTextureSprite = "GFX_bst_section_bg"
 						scale = 1
 					}
-					buttonType = {
-						name = "bst_priority_up_btn_14"
-						position = { x = 0 y = 429 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_14"
-						position = { x = -1 y = 444 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
-					}
 					iconType = {
 						name = "bst_building_icon_14"
 						position = { x = 17 y = 429 }	
@@ -1368,116 +1126,19 @@ guiTypes = {
 						pdx_tooltip = "BST_ADD_TECH_TT"
 					}
 				}
-				#####
-				# 15 #
-				#####
-				containerWindowType = {
-					name = "bst_construction_window_15"
-					position = { x = 7 y = 3 }
-					size = { width = 300 height = 35 }
-						
-					iconType = {
-						name = "bst_background_15"
-						position = { x = 0 y = 462 }
-						quadTextureSprite = "GFX_bst_section_bg"
-						scale = 1
-					}
-					buttonType = {
-						name = "bst_priority_up_btn_15"
-						position = { x = 0 y = 462 }
-						quadTextureSprite = "GFX_bst_increase_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_UP_TT"
-					}
-					buttonType = {
-						name = "bst_priority_down_btn_15"
-						position = { x = -1 y = 477 }
-						quadTextureSprite = "GFX_bst_decrease_priority"
-						clicksound = click_default
-						scale = 0.7
-						pdx_tooltip = "BST_PRIORITY_DOWN_TT"
-					}
-					iconType = {
-						name = "bst_building_icon_15"
-						position = { x = 17 y = 462 }	
-						spriteType = "GFX_buildings_strip"
-						pdx_tooltip = "BST_RAIL_ICON_TT"
-						frame = 16
-						scale = 0.7
-					}
-					# just use the destroy button ig
-					# buttonType = {
-					# 	name = "bst_min_button_15" 
-					# 	position = { x = 52 y = 467 }
-					# 	spriteType = "GFX_bst_min_max_btn2"
-					# 	pdx_tooltip = "BST_MINIMUM_TT"
-					# 	scale = 1
-					# 	buttonText = "min."
-					# 	buttonFont = "hoi_16mbs"
-					# }
-					# buttonType = {
-					# 	name = "bst_remove_buildings_15"
-					# 	position = { x = 117 y = 467 }
-					# 	spriteType = "GFX_subtract_one"
-					# 	scale = 0.9
-					# 	pdx_tooltip = "BST_REMOVE_TT"
-					# }
-					instantTextboxType = {
-						name = "bst_buildings_amount_15"
-						position = { x = 137 y = 467 }
-						font = "hoi_18mbs"
-						text = "x"
-						maxWidth = 38
-						maxHeight = 23
-						format = center
-					}
-					buttonType = {
-						name = "bst_add_buildings_15"
-						position = { x = 177 y = 467 }
-						spriteType = "GFX_add_one"
-						scale = 0.9
-						pdx_tooltip = "BST_ADD_TT"
-					}
-					buttonType = {
-						name = "bst_max_button_15" 
-						position = { x = 212 y = 467 }
-						spriteType = "GFX_bst_min_max_btn2"
-						pdx_tooltip = "BST_MAXIMUM_TT"
-						scale = 1
-						buttonText = "max."
-						buttonFont = "hoi_16mbs"
-					}
-				}
 			}
-			#buttonType = {
-			#	name = "bst_collapse_btn"
-			#	position = { x = 3 y = 211 }
-			#	quadTextureSprite = "GFX_bst_collapse_btn"
-			#	buttonFont = "hoi_18mbs"
-			#	clicksound = click_default
-			#	scale = 0.65
-			#}
-			#buttonType = {
-			#	name = "bst_expand_btn"
-			#	position = { x = 3 y = 211 }
-			#	quadTextureSprite = "GFX_bst_expand_btn"
-			#	buttonFont = "hoi_18mbs"
-			#	clicksound = click_default
-			#	scale = 0.65
-			#}
 		}
 	
 		containerWindowType = {
 			name = "bst_window2"
-			position = { x = -15 y = -100 }
+			position = { x = -365 y = -101 }
 			size = { width = 255 height = 355 }
 			orientation = CENTER_RIGHT
 			origo = center_right
 	
 			fade_time = 300
 			fade_type = linear
-			moveable = yes
+			
 			
 			background = {
 				name = "Background"
@@ -1494,7 +1155,7 @@ guiTypes = {
 			}
 			iconType ={
 				name = "bst_window2_civf_icon"
-				spriteType = "GFX_endgame_civ_industry_button"
+				spriteType = "GFX_bst_civf"
 				position = { x = 35 y = 27 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
@@ -1503,7 +1164,7 @@ guiTypes = {
 			}
 			instantTextboxType = {
 				name = "bst_total_buildings_amount_1"
-				position = { x = 28 y = 70 }
+				position = { x = 65 y = 35 }
 				font = "hoi_18mbs"
 				text = "BST_TOTAL_CIVF"
 				maxWidth = 55
@@ -1511,20 +1172,10 @@ guiTypes = {
 				format = center
 				pdx_tooltip = "BST_CIV_COUNTRY_AMOUNT_TT"
 			}
-			instantTextboxType = {
-				name = "bst_change_buildings_amount_1"
-				position = { x = 25 y = 85 }
-				font = "hoi_18mbs"
-				text = "[BST_CHANGE_CIVF]"
-				maxWidth = 60
-				maxHeight = 23
-				format = center
-				pdx_tooltip = "BST_CIV_COUNTRY_CHANGE_TT"
-			}
 			iconType ={
 				name = "bst_window2_milf_icon"
-				spriteType = "GFX_endgame_industry_button"
-				position = { x = 105 y = 27 }
+				spriteType = "GFX_bst_milf"
+				position = { x = 35 y = 77 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 				scale = 0.8
@@ -1532,7 +1183,7 @@ guiTypes = {
 			}
 			instantTextboxType = {
 				name = "bst_total_buildings_amount_2"
-				position = { x = 98 y = 70 }
+				position = { x = 65 y = 85 }
 				font = "hoi_18mbs"
 				text = "BST_TOTAL_ARMSF"
 				maxWidth = 55
@@ -1540,20 +1191,10 @@ guiTypes = {
 				format = center
 				pdx_tooltip = "BST_MIL_COUNTRY_AMOUNT_TT"
 			}
-			instantTextboxType = {
-				name = "bst_change_buildings_amount_2"
-				position = { x = 95 y = 85 }
-				font = "hoi_18mbs"
-				text = "[BST_CHANGE_ARMSF]"
-				maxWidth = 60
-				maxHeight = 23
-				format = center
-				pdx_tooltip = "BST_MIL_COUNTRY_CHANGE_TT"
-			}
 			iconType ={
 				name = "bst_window2_navd_icon"
-				spriteType = "GFX_endgame_naval_industry_button"
-				position = { x = 175 y = 27 }
+				spriteType = "GFX_bst_dock"
+				position = { x = 35 y = 127 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 				scale = 0.8
@@ -1561,7 +1202,7 @@ guiTypes = {
 			}
 			instantTextboxType = {
 				name = "bst_total_buildings_amount_3"
-				position = { x = 168 y = 70 }
+				position = { x = 65 y = 135 }
 				font = "hoi_18mbs"
 				text = "BST_TOTAL_NAVF"
 				maxWidth = 55
@@ -1569,39 +1210,10 @@ guiTypes = {
 				format = center
 				pdx_tooltip = "BST_DOCK_COUNTRY_AMOUNT_TT"
 			}
-			instantTextboxType = {
-				name = "bst_change_buildings_amount_3"
-				position = { x = 165 y = 85 }
-				font = "hoi_18mbs"
-				text = "[BST_CHANGE_NAVF]"
-				maxWidth = 60
-				maxHeight = 23
-				format = center
-				pdx_tooltip = "BST_DOCK_COUNTRY_CHANGE_TT"
-			}
-			iconType ={
-				name = "bst_window2_rocket_icon"
-				spriteType = "GFX_bst_rocket"
-				position = { x = 21 y = 127 }
-				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes
-				scale = 0.8
-				pdx_tooltip = "BST_ROC_COUNTRY_AMOUNT_TT"
-			}
-			instantTextboxType = {
-				name = "bst_total_buildings_amount_4"
-				position = { x = 14 y = 170 }
-				font = "hoi_18mbs"
-				text = "[?This.bst_country_average_rocket_site]"
-				maxWidth = 55
-				maxHeight = 23
-				format = center
-				pdx_tooltip = "BST_ROC_COUNTRY_AMOUNT_TT"
-			}
 			iconType ={
 				name = "bst_window2_nuclear_icon"
 				spriteType = "GFX_bst_nuclear"
-				position = { x = 77 y = 127 }
+				position = { x = 135 y = 27 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 				scale = 0.8
@@ -1609,7 +1221,7 @@ guiTypes = {
 			}
 			instantTextboxType = {
 				name = "bst_total_buildings_amount_5"
-				position = { x = 70 y = 170 }
+				position = { x = 165 y = 35 }
 				font = "hoi_18mbs"
 				text = "[?This.bst_country_average_nuclear_reactor]"
 				maxWidth = 55
@@ -1620,7 +1232,7 @@ guiTypes = {
 			iconType ={
 				name = "bst_window2_refinery_icon"
 				spriteType = "GFX_bst_refinery"
-				position = { x = 133 y = 127 }
+				position = { x = 135 y = 77 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 				scale = 0.8
@@ -1628,7 +1240,7 @@ guiTypes = {
 			}
 			instantTextboxType = {
 				name = "bst_total_buildings_amount_6"
-				position = { x = 126 y = 170 }
+				position = { x = 165 y = 85 }
 				font = "hoi_18mbs"
 				text = "[?This.bst_country_average_synthetic_refinery]"
 				maxWidth = 55
@@ -1637,106 +1249,10 @@ guiTypes = {
 				pdx_tooltip = "BST_SYN_COUNTRY_AMOUNT_TT"
 			}
 			iconType ={
-				name = "bst_window2_infrastructure_icon"
-				spriteType = "GFX_bst_infrastructure"
-				position = { x = 21 y = 227 }
-				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes
-				scale = 0.8
-				pdx_tooltip = "BST_INF_COUNTRY_AMOUNT_TT"
-			}
-			instantTextboxType = {
-				name = "bst_total_buildings_amount_7"
-				position = { x = 14 y = 270 }
-				font = "hoi_18mbs"
-				text = "[?This.bst_country_average_inf]"
-				maxWidth = 55
-				maxHeight = 23
-				format = center
-				pdx_tooltip = "BST_INF_COUNTRY_AMOUNT_TT"
-			}
-			iconType ={
-				name = "bst_window2_air_base_icon"
-				spriteType = "GFX_bst_air_base"
-				position = { x = 77 y = 227 }
-				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes
-				scale = 0.8
-				pdx_tooltip = "BST_AIRB_COUNTRY_AMOUNT_TT"
-			}
-			instantTextboxType = {
-				name = "bst_total_buildings_amount_8"
-				position = { x = 70 y = 270 }
-				font = "hoi_18mbs"
-				text = "[?This.bst_country_average_airb]"
-				maxWidth = 55
-				maxHeight = 23
-				format = center
-				pdx_tooltip = "BST_AIRB_COUNTRY_AMOUNT_TT"
-			}
-			iconType ={
-				name = "bst_window2_anti_air_icon"
-				spriteType = "GFX_bst_anti_air"
-				position = { x = 133 y = 227 }
-				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes
-				scale = 0.8
-				pdx_tooltip = "BST_AA_COUNTRY_AMOUNT_TT"
-			}
-			instantTextboxType = {
-				name = "bst_total_buildings_amount_9"
-				position = { x = 126 y = 270 }
-				font = "hoi_18mbs"
-				text = "[?This.bst_country_average_aa]"
-				maxWidth = 55
-				maxHeight = 23
-				format = center
-				pdx_tooltip = "BST_AA_COUNTRY_AMOUNT_TT"
-			}
-			iconType ={
-				name = "bst_window2_radar_icon"
-				spriteType = "GFX_bst_radar"
-				position = { x = 190 y = 227 }
-				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes
-				scale = 0.8
-				pdx_tooltip = "BST_RADAR_COUNTRY_AMOUNT_TT"
-			}
-			instantTextboxType = {
-				name = "bst_total_buildings_amount_10"
-				position = { x = 183 y = 270 }
-				font = "hoi_18mbs"
-				text = "[?This.bst_country_average_radar]"
-				maxWidth = 55
-				maxHeight = 23
-				format = center
-				pdx_tooltip = "BST_RADAR_COUNTRY_AMOUNT_TT"
-			}
-			instantTextboxType = {
-				name = "bst_owned_states_amount"
-				position = { x = 0 y = 315 }
-				font = "hoi_18mbs"
-				text = "[?This.num_owned_states]"
-				maxWidth = 55
-				maxHeight = 23
-				format = center
-				pdx_tooltip = "BST_STATE_OWNED_AMOUNT_TT"
-			}
-			instantTextboxType = {
-				name = "bst_controlled_states_amount"
-				position = { x = 50 y = 315 }
-				font = "hoi_18mbs"
-				text = "[?This.num_controlled_states]"
-				maxWidth = 55
-				maxHeight = 23
-				format = center
-				pdx_tooltip = "BST_STATE_CONTROLLED_AMOUNT_TT"
-			}
-			iconType ={
 				name = "bst_window2_fuel_silo_icon"
 				spriteType = "GFX_buildings_strip"
 				frame = 14
-				position = { x = 190 y = 127 }
+				position = { x = 135 y = 127 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 				scale = 0.8
@@ -1744,13 +1260,33 @@ guiTypes = {
 			}
 			instantTextboxType = {
 				name = "bst_total_buildings_amount_11"
-				position = { x = 183 y = 170 }
+				position = { x = 165 y = 135 }
 				font = "hoi_18mbs"
 				text = "[?This.bst_country_average_fuel_silo]"
 				maxWidth = 55
 				maxHeight = 23
 				format = center
 				pdx_tooltip = "BST_FUEL_SILO_COUNTRY_AMOUNT_TT"
+			}
+			instantTextboxType = {
+				name = "bst_owned_states_amount"
+				position = { x = 25 y = 265 }
+				font = "hoi_18mbs"
+				text = "BST_STATE_OWNED_AMOUNT"
+				maxWidth = 200
+				maxHeight = 23
+				format = center
+				pdx_tooltip = "BST_STATE_OWNED_AMOUNT_TT"
+			}
+			instantTextboxType = {
+				name = "bst_controlled_states_amount"
+				position = { x = 25 y = 305 }
+				font = "hoi_18mbs"
+				text = "BST_STATE_CONTROLLED_AMOUNT"
+				maxWidth = 200
+				maxHeight = 23
+				format = center
+				pdx_tooltip = "BST_STATE_CONTROLLED_AMOUNT_TT"
 			}
 		}
 	}

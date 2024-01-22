@@ -3,11 +3,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "tpt_main_container"
-		position = {x = -250 y = 0 }
+		position = {x = -0 y = -155 }
 		size = { width = 494 height = 295 }
 		orientation = CENTER_RIGHT
 		origo = center_right
-		moveable = yes
+		
 		
 		background = {
 			name = "Background"
@@ -241,7 +241,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "tpt_fascist_number"
-			position = { x = 330 y = 59 }
+			position = { x = 340 y = 59 }
 			font = "hoi_18mbs"
 			text = "[TPT_POP_FASCIST]%"
 			maxWidth = 200
@@ -275,7 +275,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "tpt_communist_number"
-			position = { x = 330 y = 104 }
+			position = { x = 340 y = 104 }
 			font = "hoi_18mbs"
 			text = "[TPT_POP_COMMUNIST]%"
 			maxWidth = 200
@@ -309,7 +309,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "tpt_democratic_number"
-			position = { x = 330 y = 149 }
+			position = { x = 340 y = 149 }
 			font = "hoi_18mbs"
 			text = "[TPT_POP_DEMOCRATIC]%"
 			maxWidth = 200
@@ -343,7 +343,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "tpt_neutral_number"
-			position = { x = 330 y = 194 }
+			position = { x = 340 y = 194 }
 			font = "hoi_18mbs"
 			text = "[TPT_POP_NEUTRAL]%"
 			maxWidth = 200
@@ -659,7 +659,7 @@ guiTypes = {
 
 		fade_time = 300
 		fade_type = linear
-		moveable = yes
+		
 
 		background = {
 			name = "Background"
