@@ -11,7 +11,6 @@ guiTypes = {
 			name = "toolpack_open"
 			quadTextureSprite = "GFX_toolpack_expand_left"
 			position = { x = 0 y = 0 }
-			shortcut = "ctrl+t"
 			pdx_tooltip = "[toolpack_OPENING]"
 			clicksound = click_ok
 			oversound = ui_menu_over
@@ -26,7 +25,6 @@ guiTypes = {
 			name = "toolpack_hide"
 			quadTextureSprite = "GFX_generic_text_bg_203"
 			position = { x = 0 y = 0 }
-			shortcut = "ctrl+shift+h"
 			clicksound = click_ok
 			oversound = ui_menu_over
 		}
@@ -51,7 +49,6 @@ guiTypes = {
 			name = "toolpack_close"
 			quadTextureSprite = "GFX_toolpack_expand_right"
 			position = { x = 0 y = 0 }
-			shortcut = "ctrl+t"
 			pdx_tooltip = "[toolpack_OPENING]"
 			clicksound = click_ok
 			oversound = ui_menu_over
@@ -112,7 +109,6 @@ guiTypes = {
 			name = "smt_open"
 			quadTextureSprite = "GFX_generic_text_bg_203"
 			position = { x = 25 y = 30 }
-			shortcut = "ctrl+alt+t"
 			pdx_tooltip = "[SMT_TOOLTIP]"
 			clicksound = click_ok
 			oversound = ui_menu_over
@@ -159,7 +155,6 @@ guiTypes = {
 			name = "cpt_open"
 			quadTextureSprite = "GFX_generic_text_bg_203"
 			position = { x = 25 y = 110 }
-			shortcut = "shift+c"
 			pdx_tooltip = "[CPT_OPENING]"
 			clicksound = click_ok
 			oversound = ui_menu_over
@@ -272,7 +267,6 @@ guiTypes = {
 		name = "crt_open"
 		quadTextureSprite = "GFX_generic_text_bg_203"
 		position = { x = 25 y = 110 }
-		#shortcut = "ctrl+alt+a"
 		clicksound = click_ok
 		oversound = ui_menu_over
 	}
@@ -340,7 +334,6 @@ guiTypes = {
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "TCW_CANCEL"
 			buttonFont = "hoi_16mbs"
-			shortcut = "ESCAPE"
 			clicksound = click_close
 		}
 		
@@ -350,7 +343,6 @@ guiTypes = {
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "TCW_OK"
 			buttonFont = "hoi_16mbs"
-			shortcut = "RETURN"
 			clicksound = click_default
 		}
 	}

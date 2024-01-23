@@ -1,7 +1,7 @@
 ﻿l_russian:
   
- smt_on: "Изменение регионов: £trigger_no"
- smt_off: "Изменение регионов: £trigger_yes"
+ smt_on: "Инструмент регионов: £trigger_no"
+ smt_off: "Инструмент регионов: £trigger_yes"
   
  smt_marked: "Убрать отметку с региона"
  smt_unmarked: "Отметить регион"

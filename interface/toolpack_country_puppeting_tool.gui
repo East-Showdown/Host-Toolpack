@@ -22,7 +22,7 @@ guiTypes = {
 			spriteType = "GFX_generic_text_bg_154"
 			position = { x = 103 y = 16 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		instantTextboxType = {
 			name = "cpt_title"
@@ -36,7 +36,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_marker"
 			position = { x = 20 y = 15 }
-			shortcut = "shift+r"
 			frame = 1
 			spriteType = "GFX_cont_focus_check_icon"
 			pdx_tooltip = "CAT_MARKER"
@@ -44,8 +43,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "cpt_unmarker"
-			position = { x = 20 y = 15 }
-			shortcut = "shift+r"		
+			position = { x = 20 y = 15 }	
 			frame = 2
 			spriteType = "GFX_cont_focus_check_icon"
 			pdx_tooltip = "CAT_UNMARKER"
@@ -53,8 +51,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "cpt_unmark_all"
-			position = { x = 60 y = 15 }
-			shortcut = "shift+ctrl+r"			
+			position = { x = 60 y = 15 }	
 			spriteType = "GFX_close_button_small"
 			pdx_tooltip = "CAT_UNMARK_ALL"
 			scale = 1
@@ -185,7 +182,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_free"
 			position = { x = 415 y = 90 }
-			shortcut = "shift+f"			
 			spriteType = "GFX_cpt_free"
 			pdx_tooltip = "CPT_FREE_TT"
 			scale = 1
@@ -223,8 +219,7 @@ guiTypes = {
 #####################################
 		buttonType = {
 			name = "cpt_autonomy_puppet_none"
-			position = { x = 105 y = 90 }
-			shortcut = "shift+w"			
+			position = { x = 105 y = 90 }	
 			spriteType = "GFX_cpt_puppet"
 			pdx_tooltip = "CPT_PUP_TT"
 			scale = 1
@@ -241,8 +236,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "cpt_autonomy_free_none"
-			position = { x = 345 y = 90 }
-			shortcut = "shift+f"			
+			position = { x = 345 y = 90 }	
 			spriteType = "GFX_cpt_free"
 			pdx_tooltip = "CPT_FREE_TT"
 			scale = 1
@@ -260,8 +254,7 @@ guiTypes = {
 ######################################
 		buttonType = {
 			name = "cpt_autonomy_integrated_puppet"
-			position = { x = 45 y = 70 }
-			shortcut = "shift+q"			
+			position = { x = 45 y = 70 }		
 			spriteType = "GFX_cpt_integrated_puppet"
 			pdx_tooltip = "CPT_INT_PUP_TT"
 			scale = 1
@@ -278,8 +271,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "cpt_autonomy_puppet"
-			position = { x = 133 y = 70 }
-			shortcut = "shift+w"			
+			position = { x = 133 y = 70 }	
 			spriteType = "GFX_cpt_puppet"
 			pdx_tooltip = "CPT_PUP_TT"
 			scale = 1
@@ -297,7 +289,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_colony"
 			position = { x = 221 y = 70 }
-			shortcut = "shift+e"			
 			spriteType = "GFX_cpt_colony"
 			pdx_tooltip = "CPT_COL_TT"
 			scale = 1
@@ -315,7 +306,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_dominion"
 			position = { x = 309 y = 70 }
-			shortcut = "shift+a"			
 			spriteType = "GFX_cpt_dominion"
 			pdx_tooltip = "CPT_DOM_TT"
 			scale = 1
@@ -333,7 +323,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_free_TfV"
 			position = { x = 397 y = 70 }
-			shortcut = "shift+f"			
 			spriteType = "GFX_cpt_free"
 			pdx_tooltip = "CPT_FREE_TT"
 			scale = 1
@@ -351,7 +340,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_personal_union"
 			position = { x = 309 y = 145 }
-			shortcut = "shift+u"			
 			spriteType = "GFX_cpt_union"
 			pdx_tooltip = "CPT_PERSONAL_UNION_TT"
 			scale = 1
@@ -369,7 +357,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_supervised"
 			position = { x = 133 y = 145 }
-			shortcut = "shift+s"			
 			spriteType = "GFX_cpt_supervised"
 			pdx_tooltip = "CPT_SUPERVISED_TT"
 			scale = 1
@@ -387,7 +374,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_collab"
 			position = { x = 221 y = 145 }
-			shortcut = "shift+s"			
 			spriteType = "GFX_cpt_free"
 			pdx_tooltip = "CPT_COLLAB_TT"
 			scale = 1
@@ -406,7 +392,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_reichskommissariat"
 			position = { x = 95 y = 90 }
-			shortcut = "shift+w"			
 			spriteType = "GFX_cpt_reichskommissariat"
 			pdx_tooltip = "CPT_RKM_TT"
 			scale = 1
@@ -424,7 +409,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_reichsprotectorate"
 			position = { x = 180 y = 90 }
-			shortcut = "shift+e"			
 			spriteType = "GFX_cpt_reichsprotectorate"
 			pdx_tooltip = "CPT_RPT_TT"
 			scale = 1
@@ -442,7 +426,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_satellite"
 			position = { x = 270 y = 90 }
-			shortcut = "shift+a"			
 			spriteType = "GFX_cpt_satellite"
 			pdx_tooltip = "CPT_SAT_TT"
 			scale = 1
@@ -460,7 +443,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_free_DoD"
 			position = { x = 355 y = 90 }
-			shortcut = "shift+f"			
 			spriteType = "GFX_cpt_free"
 			pdx_tooltip = "CPT_FREE_TT"
 			scale = 1
@@ -479,7 +461,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_wtt_imperial_protectorate"
 			position = { x = 105 y = 90 }
-			shortcut = "shift+w"			
 			spriteType = "GFX_cpt_imperial_protectorate"
 			pdx_tooltip = "CPT_IPP_TT"
 			scale = 1
@@ -496,8 +477,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "cpt_autonomy_wtt_imperial_associate"
-			position = { x = 227 y = 90 }
-			shortcut = "shift+e"			
+			position = { x = 227 y = 90 }	
 			spriteType = "GFX_cpt_imperial_associate"
 			pdx_tooltip = "CPT_IPA_TT"
 			scale = 1
@@ -515,7 +495,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_free_imperial"
 			position = { x = 345 y = 90 }
-			shortcut = "shift+f"			
 			spriteType = "GFX_cpt_free"
 			pdx_tooltip = "CPT_FREE_TT"
 			scale = 1
@@ -533,8 +512,7 @@ guiTypes = {
 ########################################
 		buttonType = {
 			name = "cpt_autonomy_wtt_imperial_protectorate_subject"
-			position = { x = 105 y = 90 }
-			shortcut = "shift+w"			
+			position = { x = 105 y = 90 }		
 			spriteType = "GFX_cpt_imperial_protectorate"
 			pdx_tooltip = "CPT_IPP_TT"
 			scale = 1
@@ -552,7 +530,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_wtt_imperial_associate_subject"
 			position = { x = 185 y = 90 }
-			shortcut = "shift+e"			
 			spriteType = "GFX_cpt_imperial_associate"
 			pdx_tooltip = "CPT_IPA_TT"
 			scale = 1
@@ -570,7 +547,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_wtt_imperial_subject"
 			position = { x = 265 y = 90 }
-			shortcut = "shift+a"			
 			spriteType = "GFX_cpt_imperial_subject"
 			pdx_tooltip = "CPT_IPS_TT"
 			scale = 1
@@ -588,7 +564,6 @@ guiTypes = {
 		buttonType = {
 			name = "cpt_autonomy_free_imperial_subject"
 			position = { x = 345 y = 90 }
-			shortcut = "shift+f"			
 			spriteType = "GFX_cpt_free"
 			pdx_tooltip = "CPT_FREE_TT"
 			scale = 1

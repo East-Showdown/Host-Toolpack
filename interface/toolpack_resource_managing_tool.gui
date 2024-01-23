@@ -36,14 +36,12 @@ guiTypes = {
 		buttonType = {
 			name = "rmt_mark_button" 
 			position = { x = 23 y = 50 }
-			shortcut = "ctrl+s"
 			spriteType = "GFX_smt_mark_button_frame_1"
 			pdx_tooltip = "SMT_STATE_MARK"
 		}
 		buttonType = {
 			name = "rmt_unmark_button" 
 			position = { x = 23 y = 50 }
-			shortcut = "ctrl+s"			
 			spriteType = "GFX_smt_mark_button_frame_2"
 			pdx_tooltip = "SMT_STATE_UNMARK"
 		}
@@ -61,28 +59,24 @@ guiTypes = {
 		buttonType = {
 			name = "rmt_mark_all" 
 			position = { x = 183 y = 44 }
-			shortcut = "ctrl+a"
 			quadTextureSprite = "GFX_smt_mark_all"
 			pdx_tooltip = "SMT_MARK_ALL"
 		}
 		buttonType = {
 			name = "rmt_mark_cores" 
 			position = { x = 233 y = 44 }
-			shortcut = "ctrl+q"
 			quadTextureSprite = "GFX_smt_mark_cores"
 			pdx_tooltip = "SMT_MARK_CORES"
 		}
 		buttonType = {
 			name = "rmt_mark_colonies" 
 			position = { x = 283 y = 44 }
-			shortcut = "ctrl+d"
 			quadTextureSprite = "GFX_smt_mark_colonies"
 			pdx_tooltip = "SMT_MARK_COLONIES"
 		}
 		buttonType = {
 			name = "rmt_unmark_all" 
 			position = { x = 333 y = 44 }
-			shortcut = "ctrl+f"
 			quadTextureSprite = "GFX_smt_unmark_all"
 			pdx_tooltip = "SMT_UNMARK_ALL"
 		}
@@ -106,7 +100,7 @@ guiTypes = {
 			spriteType = "GFX_resources_strip"
 			position = { x = 33 y = 90 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 1
 		}
 		buttonType = {
@@ -128,7 +122,7 @@ guiTypes = {
 			spriteType = "GFX_resources_strip"
 			position = { x = 82 y = 90 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 3
 		}
 		buttonType = {
@@ -150,7 +144,7 @@ guiTypes = {
 			spriteType = "GFX_resources_strip"
 			position = { x = 132 y = 90 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 5
 		}
 ######
@@ -173,7 +167,7 @@ guiTypes = {
 			spriteType = "GFX_resources_strip"
 			position = { x = 182 y = 90 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 2
 		}
 		buttonType = {
@@ -195,7 +189,7 @@ guiTypes = {
 			spriteType = "GFX_resources_strip"
 			position = { x = 232 y = 90 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 4
 		}
 		buttonType = {
@@ -217,7 +211,7 @@ guiTypes = {
 			spriteType = "GFX_resources_strip"
 			position = { x = 282 y = 90 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 6
 		}
 		buttonType = {
@@ -365,7 +359,7 @@ guiTypes = {
 			spriteType = "GFX_rmt_resource_grid"
 			position = { x = 307 y = 142 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 			scale = 0.75
 		}
 		iconType ={
@@ -373,7 +367,7 @@ guiTypes = {
 			spriteType = "GFX_resources_strip"
 			position = { x = 308 y = 144 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 1
 			scale = 0.75
 		}
@@ -382,7 +376,7 @@ guiTypes = {
 			spriteType = "GFX_resources_strip"
 			position = { x = 308 y = 168 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 3
 			scale = 0.75
 		}
@@ -391,7 +385,7 @@ guiTypes = {
 			spriteType = "GFX_resources_strip"
 			position = { x = 308 y = 191 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 5
 			scale = 0.75
 		}
@@ -400,7 +394,7 @@ guiTypes = {
 			spriteType = "GFX_resources_strip"
 			position = { x = 346 y = 144 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 2
 			scale = 0.75
 		}
@@ -409,7 +403,7 @@ guiTypes = {
 			spriteType = "GFX_resources_strip"
 			position = { x = 346 y = 168 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 4
 			scale = 0.75
 		}
@@ -418,7 +412,7 @@ guiTypes = {
 			spriteType = "GFX_resources_strip"
 			position = { x = 346 y = 191 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 6
 			scale = 0.75
 		}

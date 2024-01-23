@@ -21,7 +21,7 @@ guiTypes = {
 			spriteType = "GFX_smt_country_name_bg"
 			position = { x = 15 y = 15 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		instantTextboxType = {
@@ -76,7 +76,6 @@ guiTypes = {
 		buttonType = {
 			name = "dst_add_army_experience"
 			position = { x = 355 y = 62 }
-			shortcut = "shift+w"			
 			spriteType = "GFX_dst_star"
 			pdx_tooltip = "DST_ADD_ARMY_EXPERIENCE"
 			scale = 1
@@ -84,7 +83,6 @@ guiTypes = {
 		buttonType = {
 			name = "dst_remove_army_experience"
 			position = { x = 355 y = 132 }
-			shortcut = "shift+q"			
 			spriteType = "GFX_dst_star_crossed_out"
 			pdx_tooltip = "DST_REMOVE_ARMY_EXPERIENCE"
 			scale = 1
@@ -92,7 +90,6 @@ guiTypes = {
 		buttonType = {
 			name = "dst_increase_exp"
 			position = { x = 101 y = 127 }
-			shortcut = "shift+s"			
 			spriteType = "GFX_add_one"
 			pdx_tooltip = "DST_INC_EXP"
 			scale = 1
@@ -100,7 +97,6 @@ guiTypes = {
 		buttonType = {
 			name = "dst_decrease_exp"
 			position = { x = 31 y = 127 }
-			shortcut = "shift+a"			
 			spriteType = "GFX_subtract_one"
 			pdx_tooltip = "DST_DEC_EXP"
 			scale = 1
@@ -126,7 +122,6 @@ guiTypes = {
 		buttonType = {
 			name = "dst_increase_eq"
 			position = { x = 101 y = 177 }
-			shortcut = "shift+f"			
 			spriteType = "GFX_add_one"
 			pdx_tooltip = "DST_INC_EQ"
 			scale = 1
@@ -134,7 +129,6 @@ guiTypes = {
 		buttonType = {
 			name = "dst_decrease_eq"
 			position = { x = 31 y = 177 }
-			shortcut = "shift+d"			
 			spriteType = "GFX_subtract_one"
 			pdx_tooltip = "DST_DEC_EQ"
 			scale = 1
@@ -266,13 +260,5 @@ guiTypes = {
 			pdx_tooltip = "DST_ADD_10"
 			scale = 1
 		}
-		#buttonType = {
-		#	name = "dst_spawn_custom_50"
-		#	position = { x = 365 y = 187 }
-		#	shortcut = "shift+a"			
-		#	spriteType = "GFX_tp_add_50"
-		#	pdx_tooltip = "DST_ADD_50"
-		#	scale = 1
-		#}
 	}	
 }

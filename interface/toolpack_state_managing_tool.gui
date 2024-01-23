@@ -21,7 +21,7 @@ guiTypes = {
 			spriteType = "GFX_smt_country_name_bg"
 			position = { x = 13 y = 11 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		instantTextboxType = {
 			name = "smt_state_name"
@@ -36,14 +36,12 @@ guiTypes = {
 		buttonType = {
 			name = "smt_mark_button" 
 			position = { x = 23 y = 50 }
-			shortcut = "ctrl+s"
 			spriteType = "GFX_smt_mark_button_frame_1"
 			pdx_tooltip = "SMT_STATE_MARK"
 		}
 		buttonType = {
 			name = "smt_unmark_button" 
 			position = { x = 23 y = 50 }
-			shortcut = "ctrl+s"			
 			spriteType = "GFX_smt_mark_button_frame_2"
 			pdx_tooltip = "SMT_STATE_UNMARK"
 		}
@@ -61,35 +59,30 @@ guiTypes = {
 		buttonType = {
 			name = "smt_mark_all" 
 			position = { x = 23 y = 90 }
-			shortcut = "ctrl+a"
 			quadTextureSprite = "GFX_smt_mark_all"
 			pdx_tooltip = "SMT_MARK_ALL"
 		}
 		buttonType = {
 			name = "smt_mark_cores" 
 			position = { x = 85 y = 90 }
-			shortcut = "ctrl+q"
 			quadTextureSprite = "GFX_smt_mark_cores"
 			pdx_tooltip = "SMT_MARK_CORES"
 		}
 		buttonType = {
 			name = "smt_mark_colonies" 
 			position = { x = 23 y = 145 }
-			shortcut = "ctrl+d"
 			quadTextureSprite = "GFX_smt_mark_colonies"
 			pdx_tooltip = "SMT_MARK_COLONIES"
 		}
 		buttonType = {
 			name = "smt_unmark_all" 
 			position = { x = 85 y = 145 }
-			shortcut = "ctrl+f"
 			quadTextureSprite = "GFX_smt_unmark_all"
 			pdx_tooltip = "SMT_UNMARK_ALL"
 		}
 		buttonType = {
 			name = "smt_mark_occupied" 
 			position = { x = 62 y = 195 }
-			shortcut = "ctrl+w"
 			quadTextureSprite = "GFX_smt_mark_occupied"
 			pdx_tooltip = "SMT_MARK_OCCUPIED"
 			scale = 0.75
@@ -98,7 +91,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_transfer_ownership" 
 			position = { x = 180 y = 52 }	
-			shortcut = "ctrl+t"
 			spriteType = "GFX_smt_ownership_button"
 			pdx_tooltip = "SMT_OWNERSHIP"
 			scale = 0.9
@@ -106,7 +98,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_transfer_control" 
 			position = { x = 180 y = 99 }	
-			shortcut = "ctrl+g"
 			spriteType = "GFX_smt_control_button"
 			pdx_tooltip = "SMT_CONTROL"
 			scale = 0.9
@@ -114,7 +105,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_transfer_resource" 
 			position = { x = 180 y = 146 }	
-			shortcut = "ctrl+g"
 			spriteType = "GFX_smt_unmark_all"
 			pdx_tooltip = "SMT_RESOURCE"
 			scale = 0.9
@@ -122,7 +112,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_set_capital" 
 			position = { x = 180 y = 193 }
-			shortcut = "ctrl+y"
 			spriteType = "GFX_smt_capital_button"
 			pdx_tooltip = "SMT_CAPITAL"
 			scale = 0.9
@@ -131,7 +120,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_core_states" 
 			position = { x = 245 y = 57 }	
-			shortcut = "ctrl+c"
 			spriteType = "GFX_tpt_core_green"
 			pdx_tooltip = "SMT_CORE"
 			scale = 0.9
@@ -139,7 +127,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_uncore_states" 
 			position = { x = 298 y = 57 }	
-			shortcut = "shift+ctrl+c"
 			spriteType = "GFX_tpt_core_red"
 			pdx_tooltip = "SMT_UNCORE"
 			scale = 0.9
@@ -147,7 +134,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_claim_states" 
 			position = { x = 245 y = 118 }	
-			shortcut = "ctrl+v"
 			spriteType = "GFX_tpt_guarantee_green"
 			pdx_tooltip = "SMT_CLAIM"
 			scale = 0.9
@@ -155,7 +141,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_unclaim_states" 
 			position = { x = 298 y = 118 }	
-			shortcut = "shift+ctrl+v"
 			spriteType = "GFX_tpt_guarantee_red"
 			pdx_tooltip = "SMT_UNCLAIM"
 			scale = 0.9
@@ -163,7 +148,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_demilitarize" 
 			position = { x = 245 y = 180 }
-			shortcut = "ctrl+x"
 			spriteType = "GFX_tpt_join_faction_green"
 			pdx_tooltip = "SMT_DEMILIT"
 			scale = 0.9
@@ -171,7 +155,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_remilitarize" 
 			position = { x = 298 y = 180 }
-			shortcut = "shift+ctrl+x"
 			spriteType = "GFX_tpt_join_faction_red"
 			pdx_tooltip = "SMT_REMILIT"
 			scale = 0.9
@@ -189,7 +172,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_increase_resistance_1" 
 			position = { x = 365 y = 80 }
-			shortcut = "shift+ctrl+x"
 			spriteType = "GFX_tp_add_1"
 			pdx_tooltip = "SMT_REMILIT"
 			scale = 0.9
@@ -197,7 +179,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_decrease_resistance_1" 
 			position = { x = 365 y = 110 }
-			shortcut = "shift+ctrl+x"
 			spriteType = "GFX_tp_sub_1"
 			pdx_tooltip = "SMT_REMILIT"
 			scale = 0.9
@@ -205,7 +186,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_increase_resistance_5" 
 			position = { x = 405 y = 80 }
-			shortcut = "shift+ctrl+x"
 			spriteType = "GFX_tp_add_5"
 			pdx_tooltip = "SMT_REMILIT"
 			scale = 0.9
@@ -213,7 +193,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_decrease_resistance_5" 
 			position = { x = 405 y = 110 }
-			shortcut = "shift+ctrl+x"
 			spriteType = "GFX_tp_sub_5"
 			pdx_tooltip = "SMT_REMILIT"
 			scale = 0.9
@@ -221,7 +200,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_increase_resistance_20" 
 			position = { x = 445 y = 80 }
-			shortcut = "shift+ctrl+x"
 			spriteType = "GFX_tp_add_20"
 			pdx_tooltip = "SMT_REMILIT"
 			scale = 0.9
@@ -229,7 +207,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_decrease_resistance_20" 
 			position = { x = 445 y = 110 }
-			shortcut = "shift+ctrl+x"
 			spriteType = "GFX_tp_sub_20"
 			pdx_tooltip = "SMT_REMILIT"
 			scale = 0.9
@@ -247,7 +224,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_increase_compliance_1" 
 			position = { x = 365 y = 170 }
-			shortcut = "shift+ctrl+x"
 			spriteType = "GFX_tp_add_1"
 			pdx_tooltip = "SMT_REMILIT"
 			scale = 0.9
@@ -255,7 +231,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_decrease_compliance_1" 
 			position = { x = 365 y = 200 }
-			shortcut = "shift+ctrl+x"
 			spriteType = "GFX_tp_sub_1"
 			pdx_tooltip = "SMT_REMILIT"
 			scale = 0.9
@@ -263,7 +238,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_increase_compliance_5" 
 			position = { x = 405 y = 170 }
-			shortcut = "shift+ctrl+x"
 			spriteType = "GFX_tp_add_5"
 			pdx_tooltip = "SMT_REMILIT"
 			scale = 0.9
@@ -271,7 +245,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_decrease_compliance_5" 
 			position = { x = 405 y = 200 }
-			shortcut = "shift+ctrl+x"
 			spriteType = "GFX_tp_sub_5"
 			pdx_tooltip = "SMT_REMILIT"
 			scale = 0.9
@@ -279,7 +252,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_increase_compliance_20" 
 			position = { x = 445 y = 170 }
-			shortcut = "shift+ctrl+x"
 			spriteType = "GFX_tp_add_20"
 			pdx_tooltip = "SMT_REMILIT"
 			scale = 0.9
@@ -287,7 +259,6 @@ guiTypes = {
 		buttonType = {
 			name = "smt_decrease_compliance_20" 
 			position = { x = 445 y = 200 }
-			shortcut = "shift+ctrl+x"
 			spriteType = "GFX_tp_sub_20"
 			pdx_tooltip = "SMT_REMILIT"
 			scale = 0.9

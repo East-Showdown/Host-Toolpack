@@ -511,10 +511,6 @@ spriteTypes = {
 		texturefile = "gfx/toolpack_interface/bst_interface/bst_min_max_btn2.dds"
 	}
 	SpriteType = { 
-		name = "GFX_bst_mark_button_red"
-		texturefile = "gfx/toolpack_interface/bst_interface/bst_mark_button_red.dds"
-	}
-	SpriteType = { 
 		name = "GFX_bst_section_bg"
 		texturefile = "gfx/toolpack_interface/bst_interface/bst_section_bg.dds"
 	}
@@ -560,7 +556,7 @@ spriteTypes = {
 	}
 	SpriteType = { 
 		name = "GFX_bst_rocket"
-		texturefile = "gfx/tool	pack_interface/bst_interface/buildings/bst_rocket.dds"
+		texturefile = "gfx/toolpack_interface/bst_interface/buildings/bst_rocket.dds"
 	}
 	SpriteType = { 
 		name = "GFX_bst_nuclear"
@@ -569,58 +565,6 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_bst_refinery"
 		texturefile = "gfx/toolpack_interface/bst_interface/buildings/bst_refinery.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_70pc_civf"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_civf.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_70pc_milf"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_milf.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_70pc_dock"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_dock.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_70pc_infrastructure"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_infrastructure.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_70pc_radar"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_radar.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_70pc_anti_air"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_aa.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_70pc_air_base"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_airbase.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_70pc_naval_base"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_navalbase.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_70pc_cfort"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_cfort.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_70pc_lfort"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_lfort.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_70pc_rocket"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_rocket.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_70pc_nuclear"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_nuclear.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_70pc_refinery"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_refinery.dds"
 	}
 ###########
 ### RMT ###

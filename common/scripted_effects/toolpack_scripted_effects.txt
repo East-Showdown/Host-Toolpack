@@ -1262,21 +1262,6 @@ bst_count_civf = {
 			add_to_variable = { This.bst_country_civf = Prev.bst_state_civf }
 		}
 	}
-
-	# The best code ever - RIP
-	#every_country = {
-	#	set_variable = { ger.bst_civf_country = this.num_of_civilian_factories }
-	#	every_owned_state = {
-	#		set_variable = { this.bst_civf_amount = ger.bst_civf_country }
-	#	}
-	#	####################
-	#	set_variable = { ger.bst_civf_country = this.num_of_civilian_factories }
-	#	every_owned_state = {
-	#		set_variable = {
-	#			this.bst_civf_country = this.industrial_complex
-	#		}
-	#	}
-	#}
 }
 
 

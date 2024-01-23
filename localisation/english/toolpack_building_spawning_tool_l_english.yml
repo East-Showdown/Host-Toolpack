@@ -15,9 +15,8 @@
  BST_UNMARK_ALL: "§HClear All Marks§!\n\nEvery mark on world will be removed\n\n"
  
  
- BST_NAME: "§G[This.GetName]§! in §Y[From.Owner.GetNameDef]§!"
- BST_CIV: "[?This.bst_civf_amount]" #YOU WILL BE MISSED - RIP CODY
- BST_CIV_SCRIPT: "[?From.Owner.bst_country_factories]" #DIE! JUST FUCKING DIE!
+ BST_NAME: "§G[This.GetName]§! в §Y[From.Owner.GetNameDef]§!"
+ BST_CIV_SCRIPT: "[?From.Owner.bst_country_factories]"
  
  BST_TOTAL_CIVF: "[?this.bst_country_civf]"
  BST_NO_CHANGE_CIVF: ""
@@ -71,19 +70,12 @@
  
  
  BST_CIV_COUNTRY_AMOUNT_TT: "§YThe number of §Gcivilian factories§! this country owns§!"
- BST_CIV_COUNTRY_CHANGE_TT: "§YThe number of §Gcivilian factories§! this country was able to use before the most recent changes. (May also be different from actual number due to trade)§!"
  BST_MIL_COUNTRY_AMOUNT_TT: "§YThe number of §Gmilitary factories§! this country owns§!"
- BST_MIL_COUNTRY_CHANGE_TT: "§YThe number of §Gmilitary factories§! this country was able to use before the most recent changes§!"
  BST_DOCK_COUNTRY_AMOUNT_TT: "§YThe number of §Gnaval dockyards§! this country owns§!"
- BST_DOCK_COUNTRY_CHANGE_TT: "§YThe number of §Gnaval dockyards§! this country was able to use before the most recent changes§!"
- BST_ROC_COUNTRY_AMOUNT_TT: "§YThe total §Grocket site§! level in this country"
  BST_NUC_COUNTRY_AMOUNT_TT: "§YThe total §Gnuclear reactor§! level in this country"
  BST_SYN_COUNTRY_AMOUNT_TT: "§YThe total §Gsynthetic refinery§! level in this country"
  BST_FUEL_SILO_COUNTRY_AMOUNT_TT: "§YThe total §Gfuel silo§! level in this country"
- BST_INF_COUNTRY_AMOUNT_TT: "§YThe average level of §Ginfrastructure§! per state in this country"
  BST_AIRB_COUNTRY_AMOUNT_TT: "§YThe average level of §Gair bases§! per state in this country"
- BST_AA_COUNTRY_AMOUNT_TT: "§YThe average level of §Ganti-air buildings§! per state in this country"
- BST_RADAR_COUNTRY_AMOUNT_TT: "§YThe average level of §Gradar stations§! per state in this country"
 
  BST_STATE_OWNED_AMOUNT: "Total regions owned: [?This.num_owned_states]"
  BST_STATE_OWNED_AMOUNT_TT: "§YThe number of states owned by this country§"

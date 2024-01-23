@@ -5,10 +5,10 @@ defined_text = {
 		trigger = {
 			has_global_flag = dst_enabled
 		}
-		localization_key = DST_ACTIVITY_OFF_B
+		localization_key = DST_ACTIVITY_OFF
 	}
 	text = {
-		localization_key = DST_ACTIVITY_ON_B
+		localization_key = DST_ACTIVITY_ON
 	}
 }
 defined_text = {

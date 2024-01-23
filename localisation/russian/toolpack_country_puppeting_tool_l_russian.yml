@@ -1,8 +1,8 @@
 ﻿l_russian:
  
  CPT_COUNTRY_NAME: "§Y[From.Owner.GetName]§!"
- CPT_ACTIVITY_ON: "Превращение в марионетку: £trigger_no"
- CPT_ACTIVITY_OFF: "Превращение в марионетку: £trigger_yes"
+ CPT_ACTIVITY_ON: "Инструмент марионеток: £trigger_no"
+ CPT_ACTIVITY_OFF: "Инструмент марионеток: £trigger_yes"
 
  CPT_STATE_SUP: "Подконтрольное государство"
  CPT_STATE_PER: "Личный союз"

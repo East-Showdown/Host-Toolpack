@@ -36,7 +36,7 @@ guiTypes = {
 				spriteType = "GFX_bst_country_name_bg"
 				position = { x = 12 y = 11 }
 				Orientation = "UPPER_LEFT"
-				allwaystransparent = yes
+				alwaystransparent = yes
 			}
 			instantTextboxType = {
 				name = "bst_state_name"
@@ -51,14 +51,12 @@ guiTypes = {
 			buttonType = {
 				name = "bst_mark_button" 
 				position = { x = 23 y = 50 }
-				shortcut = "ctrl+r"
 				spriteType = "GFX_smt_mark_button_frame_1"
 				pdx_tooltip = "BST_STATE_MARK"
 			}
 			buttonType = {
 				name = "bst_unmark_button" 
 				position = { x = 23 y = 50 }
-				shortcut = "ctrl+r"			
 				spriteType = "GFX_smt_mark_button_frame_2"
 				pdx_tooltip = "BST_STATE_UNMARK"
 			}
@@ -76,28 +74,24 @@ guiTypes = {
 			buttonType = {
 				name = "bst_mark_all" 
 				position = { x = 170 y = 45 }
-				shortcut = "ctrl+a"
 				quadTextureSprite = "GFX_smt_mark_all"
 				pdx_tooltip = "BST_MARK_ALL"
 			}
 			buttonType = {
 				name = "bst_mark_cores" 
 				position = { x = 220 y = 45 }
-				shortcut = "ctrl+s"
 				quadTextureSprite = "GFX_smt_mark_cores"
 				pdx_tooltip = "BST_MARK_CORES"
 			}
 			buttonType = {
 				name = "bst_mark_colonies" 
 				position = { x = 270 y = 45 }
-				shortcut = "ctrl+d"
 				quadTextureSprite = "GFX_smt_mark_colonies"
 				pdx_tooltip = "BST_MARK_COLONIES"
 			}
 			buttonType = {
 				name = "bst_unmark_all" 
 				position = { x = 320 y = 45 }
-				shortcut = "ctrl+f"
 				quadTextureSprite = "GFX_smt_unmark_all"
 				pdx_tooltip = "BST_UNMARK_ALL"
 			}
@@ -112,7 +106,6 @@ guiTypes = {
 			buttonType = {
 				name = "bst_collapse_window2_button" 
 				position = { x = 342 y = 195 }
-				shortcut = "ctrl+k"
 				spriteType = "GFX_civ_factory"
 				pdx_tooltip = "BST_COLLAPSE_WINDOW_2_TT"
 			}
@@ -685,7 +678,7 @@ guiTypes = {
 					iconType = {
 						name = "bst_building_icon_9"
 						position = { x = 17 y = 264 }	
-						spriteType = "GFX_bst_70pc_rocket"
+						spriteType = "GFX_bst_rocket"
 						scale = 0.7
 						pdx_tooltip = "BST_ROC_ICON_TT"
 					}
@@ -1149,7 +1142,6 @@ guiTypes = {
 			buttonType = {
 				name = "bst_window2_reload_button" 
 				position = { x = 215 y = 20 }
-				shortcut = "ctrl+k"
 				spriteType = "GFX_ongoing_focus_goal_icon"
 				pdx_tooltip = "BST_UNCAP_TT"
 				scale = 0.7

@@ -19,7 +19,7 @@ guiTypes = {
 			spriteType = "GFX_generic_text_bg_154"
 			position = { x = 15 y = 15 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		instantTextboxType = {
 			name = "tpt_actor_name"
@@ -33,7 +33,6 @@ guiTypes = {
 		buttonType = {
 			name = "tpt_marker"
 			position = { x = 29 y = 52 }
-			shortcut = "shift+r"
 			frame = 1
 			spriteType = "GFX_cont_focus_check_icon"
 			pdx_tooltip = "CAT_MARKER"
@@ -42,7 +41,6 @@ guiTypes = {
 		buttonType = {
 			name = "tpt_unmarker"
 			position = { x = 29 y = 52 }
-			shortcut = "shift+r"		
 			frame = 2
 			spriteType = "GFX_cont_focus_check_icon"
 			pdx_tooltip = "CAT_UNMARKER"
@@ -51,7 +49,6 @@ guiTypes = {
 		buttonType = {
 			name = "tpt_unmark_all"
 			position = { x = 69 y = 53 }
-			shortcut = "shift+ctrl+r"			
 			spriteType = "GFX_close_button_small"
 			pdx_tooltip = "CAT_UNMARK_ALL"
 			scale = 1
@@ -432,7 +429,6 @@ guiTypes = {
 			position = { x = 240 y = 170 }
 			spriteType = "GFX_tpt_war_red"
 			pdx_tooltip = "TPT_CW_TT"
-			shortcut = "shift+c"
 		}
 		instantTextboxType = {
 			name = "tpt_threat_text"
@@ -653,10 +649,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "tpt_cw_window"
-		position = { x = -380 y = 473 }
+		position = { x = -130 y = -95 }
 		size = { width = 494 height = 255 }
-		orientation = UPPER_RIGHT
-		origo = upper_right
+		orientation = CENTER_RIGHT
+		origo = CENTER_RIGHT
+		moveable = yes
 
 		fade_time = 300
 		fade_type = linear
@@ -669,7 +666,6 @@ guiTypes = {
 		buttonType = {
 			name = "tpt_cw_close_window"
 			position = { x = 109 y = 2 }
-			shortcut = "shift+ctrl+r"			
 			spriteType = "GFX_closebutton"
 			pdx_tooltip = "TPT_CLOSE_WINDOW"
 			scale = 0.7
