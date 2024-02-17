@@ -112,7 +112,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "bst_grid_window"
 				position = { x = 10 y = 88 }
-				size = { width = 330 height = 135 }
+				size = { width = 330 height = 132 }
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 0 bottom = 5 }
 					
@@ -956,7 +956,7 @@ guiTypes = {
 						buttonFont = "hoi_18mbs"
 						clicksound = click_default
 						scale = 0.35
-						pdx_tooltip = "BST_LIMIT_BASE_TT"
+						pdx_tooltip = "BST_LIMIT_BASE_1_TT"
 					}
 					iconType = {
 						name = "bst_glow_12"
@@ -1036,7 +1036,7 @@ guiTypes = {
 						buttonFont = "hoi_18mbs"
 						clicksound = click_default
 						scale = 0.35
-						pdx_tooltip = "BST_LIMIT_BASE_TT"
+						pdx_tooltip = "BST_LIMIT_BASE_2_TT"
 					}
 					iconType = {
 						name = "bst_glow_13"
@@ -1129,7 +1129,7 @@ guiTypes = {
 			size = { width = 255 height = 355 }
 			orientation = CENTER_RIGHT
 			origo = center_right
-	
+			moveable = yes
 			fade_time = 300
 			fade_type = linear
 			
@@ -1269,7 +1269,6 @@ guiTypes = {
 				maxWidth = 200
 				maxHeight = 23
 				format = center
-				pdx_tooltip = "BST_STATE_OWNED_AMOUNT_TT"
 			}
 			instantTextboxType = {
 				name = "bst_controlled_states_amount"
@@ -1279,7 +1278,6 @@ guiTypes = {
 				maxWidth = 200
 				maxHeight = 23
 				format = center
-				pdx_tooltip = "BST_STATE_CONTROLLED_AMOUNT_TT"
 			}
 		}
 	}

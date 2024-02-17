@@ -61,26 +61,22 @@
  BST_SYNREF_AMOUNT_TT: "§YThere is a level §G[BST_REFINERY_AMOUNT]§! synthetic refniery in this state§!"
  BST_ROC_AMOUNT_TT: "§YThere is a level §G[BST_ROCKET_AMOUNT]§! rocket site in this state§!"
  BST_NUC_AMOUNT_TT: "§YThere is a level §G[BST_NUCLEAR_AMOUNT]§! nuclear reactor in this state§!"
- 
- BST_LIMIT_BORDER_TT: "§YLimit/stop limiting construction to border§!"
- BST_LIMIT_BASE_TT: "§YLimit/stop limiting construction to bases§!"
- 
  BST_FUEL_SILO_AMOUNT_TT: "§YThere is a level §G[BST_FUEL_SILO_AMOUNT]§! fuel silo in this state§!"
- BST_BUILDING_SLOTS_AMOUNT_TT: "[?extra_state_shared_building_slots]"
+
+ BST_LIMIT_BORDER_TT: "§YEnable/disable construction of fortifications at borders only§!"
+ BST_LIMIT_BASE_1_TT: "§YEnable/disable construction of naval fortifications on naval bases only§!"
+ BST_LIMIT_BASE_2_TT: "§YEnable/disable improvement of already existing naval bases§!"
  
- 
+
  BST_CIV_COUNTRY_AMOUNT_TT: "§YThe number of §Gcivilian factories§! this country owns§!"
  BST_MIL_COUNTRY_AMOUNT_TT: "§YThe number of §Gmilitary factories§! this country owns§!"
  BST_DOCK_COUNTRY_AMOUNT_TT: "§YThe number of §Gnaval dockyards§! this country owns§!"
  BST_NUC_COUNTRY_AMOUNT_TT: "§YThe total §Gnuclear reactor§! level in this country"
  BST_SYN_COUNTRY_AMOUNT_TT: "§YThe total §Gsynthetic refinery§! level in this country"
  BST_FUEL_SILO_COUNTRY_AMOUNT_TT: "§YThe total §Gfuel silo§! level in this country"
- BST_AIRB_COUNTRY_AMOUNT_TT: "§YThe average level of §Gair bases§! per state in this country"
 
  BST_STATE_OWNED_AMOUNT: "Total regions owned: [?This.num_owned_states]"
- BST_STATE_OWNED_AMOUNT_TT: "§YThe number of states owned by this country§"
  BST_STATE_CONTROLLED_AMOUNT: "Total regions under occupation: [?This.num_controlled_states]"
- BST_STATE_CONTROLLED_AMOUNT_TT: "§YThe number of states controlled by this country§"
 
  
  
