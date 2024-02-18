@@ -29,10 +29,12 @@
  
  #TOOLTIPS
  BST_COLLAPSE_WINDOW_2_TT: "§YOpen or close the second window§!"
- BST_MINIMUM_TT: "§YSet building level to zero§!"
- BST_REMOVE_TT: "§YRemove one building level§!"
- BST_ADD_TT: "§YAdd one building level§!"
+ MAX_text: "Max."
+ MIN_text: "Min."
  BST_MAXIMUM_TT: "§YSet building level to maximum§!"
+ BST_MINIMUM_TT: "§YSet building level to zero§!"
+ BST_ADD_TT: "§YAdd one building level§!"
+ BST_REMOVE_TT: "§YRemove one building level§!"
  BST_ADD_TECH_TT: "§YAdd required technology for owners of target states§!"
  
  BST_CIV_ICON_TT: "§YAdd or remove §Gcivilian factories§! in target states§!"

@@ -157,7 +157,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MINIMUM_TT"
 						scale = 1
-						buttonText = "min."
+						buttonText = "MIN_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -190,7 +190,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MAXIMUM_TT"
 						scale = 1
-						buttonText = "max."
+						buttonText = "MAX_text"
 						buttonFont = "hoi_16mbs"
 					}
 				}
@@ -222,7 +222,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MINIMUM_TT"
 						scale = 1
-						buttonText = "min."
+						buttonText = "MIN_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -255,7 +255,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MAXIMUM_TT"
 						scale = 1
-						buttonText = "max."
+						buttonText = "MAX_text"
 						buttonFont = "hoi_16mbs"
 					}
 				}
@@ -286,7 +286,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MINIMUM_TT"
 						scale = 1
-						buttonText = "min."
+						buttonText = "MIN_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -319,7 +319,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MAXIMUM_TT"
 						scale = 1
-						buttonText = "max."
+						buttonText = "MAX_text"
 						buttonFont = "hoi_16mbs"
 					}
 				}
@@ -350,7 +350,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MINIMUM_TT"
 						scale = 1
-						buttonText = "min."
+						buttonText = "MIN_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -383,7 +383,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MAXIMUM_TT"
 						scale = 1
-						buttonText = "max."
+						buttonText = "MAX_text"
 						buttonFont = "hoi_16mbs"
 					}
 				}
@@ -414,7 +414,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MINIMUM_TT"
 						scale = 1
-						buttonText = "min."
+						buttonText = "MIN_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -447,7 +447,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MAXIMUM_TT"
 						scale = 1
-						buttonText = "max."
+						buttonText = "MAX_text"
 						buttonFont = "hoi_16mbs"
 					}
 				}
@@ -478,7 +478,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MINIMUM_TT"
 						scale = 1
-						buttonText = "min."
+						buttonText = "MIN_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -511,7 +511,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MAXIMUM_TT"
 						scale = 1
-						buttonText = "max."
+						buttonText = "MAX_text"
 						buttonFont = "hoi_16mbs"
 					}
 				}
@@ -542,7 +542,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MINIMUM_TT"
 						scale = 1
-						buttonText = "min."
+						buttonText = "MIN_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -575,7 +575,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MAXIMUM_TT"
 						scale = 1
-						buttonText = "max."
+						buttonText = "MAX_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -615,7 +615,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MINIMUM_TT"
 						scale = 1
-						buttonText = "min."
+						buttonText = "MIN_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -648,7 +648,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MAXIMUM_TT"
 						scale = 1
-						buttonText = "max."
+						buttonText = "MAX_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -688,7 +688,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MINIMUM_TT"
 						scale = 1
-						buttonText = "min."
+						buttonText = "MIN_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -721,7 +721,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MAXIMUM_TT"
 						scale = 1
-						buttonText = "max."
+						buttonText = "MAX_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -761,7 +761,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MINIMUM_TT"
 						scale = 1
-						buttonText = "min."
+						buttonText = "MIN_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -794,7 +794,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MAXIMUM_TT"
 						scale = 1
-						buttonText = "max."
+						buttonText = "MAX_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -834,7 +834,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MINIMUM_TT"
 						scale = 1
-						buttonText = "min."
+						buttonText = "MIN_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -866,7 +866,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MAXIMUM_TT"
 						scale = 1
-						buttonText = "max."
+						buttonText = "MAX_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -914,7 +914,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MINIMUM_TT"
 						scale = 1
-						buttonText = "min."
+						buttonText = "MIN_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -946,7 +946,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MAXIMUM_TT"
 						scale = 1
-						buttonText = "max."
+						buttonText = "MAX_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -994,7 +994,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MINIMUM_TT"
 						scale = 1
-						buttonText = "min."
+						buttonText = "MIN_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -1026,7 +1026,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MAXIMUM_TT"
 						scale = 1
-						buttonText = "max."
+						buttonText = "MAX_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -1075,7 +1075,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MINIMUM_TT"
 						scale = 1
-						buttonText = "min."
+						buttonText = "MIN_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
@@ -1107,7 +1107,7 @@ guiTypes = {
 						spriteType = "GFX_bst_min_max_btn2"
 						pdx_tooltip = "BST_MAXIMUM_TT"
 						scale = 1
-						buttonText = "max."
+						buttonText = "MAX_text"
 						buttonFont = "hoi_16mbs"
 					}
 					buttonType = {
